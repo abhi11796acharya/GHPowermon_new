@@ -94,15 +94,15 @@
 			console.log(app2); 
 			app2=app2+200;
 		}
-		/*-----------------------------------------------------F3-----------------------------------------------------------------------
-		google.charts.setOnLoadCallback(drawChart3);
+		//-----------------------------------------------------F3-----------------------------------------------------------------------
+	/*	google.charts.setOnLoadCallback(drawChart3);
       function drawChart3() {
-	  
+	  */
 	  $.getJSON('action_page.php/?q=3', function(json) {
 	  //alert(JSON.stringify(json));
 		    dataTable3 = new google.visualization.DataTable();
 			dataTable3.addColumn('datetime',   'time');
-			 dataTable3.addColumn('number', 'current');
+			 dataTable3.addColumn('number', 'Frequency');
 			 oldTime3=json[0].time;
 			 dataTable3.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
@@ -136,17 +136,17 @@
 			app3=app3+200;
 		} 
 		//----------------------------------------------------------------------------F4-----------------------------------------------------------------
-		
+		/*
 			google.charts.setOnLoadCallback(drawChart4);
       function drawChart4() {
-	  
+	  */
 	  $.getJSON('action_page.php/?q=4', function(json) {
 	  //alert(JSON.stringify(json));
 		    dataTable4 = new google.visualization.DataTable();
 			dataTable4.addColumn('datetime',   'time');
 			 dataTable4.addColumn('number', 'current');
 			 oldTime4=json[0].time;
-			 dataTable4.addRow([new Date(json[0].time), parseInt(json[0].value)])};
+			 dataTable4.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
 		options4 = {
           title: 'Sensor',
@@ -178,8 +178,7 @@
 			console.log(app4); 
 			app4=app4+200;
 		}
-		setInterval("updater1();updater2();updater3();updater4();",500);*/
-		setInterval(function(){updater1();updater2();},500);
+		setInterval(function(){updater1();updater2();updater3();updater4();},500);
       }
     </script>
   </head>
