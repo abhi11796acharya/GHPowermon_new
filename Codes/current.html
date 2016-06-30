@@ -2,7 +2,7 @@
 <html>
 <head>
 <script>
-setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4)",500);
+setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4)",10);
            function getCurrent(int) 
 				{
 				 if (window.XMLHttpRequest)
@@ -19,7 +19,7 @@ setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4)",500);
 					{
 			var store = xmlhttp1.responseText;
 					 var UI=document.getElementById("curread");
-					   UI.innerHTML =store;
+					   UI.innerHTML =store+" A";
 					}
 				  }
 				  xmlhttp1.open("GET","refresh.php?q="+int,true);
@@ -39,7 +39,7 @@ setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4)",500);
 					if (xmlhttp2.readyState==4 && xmlhttp2.status==200) {
 					 var store2 = xmlhttp2.responseText;
 					 var UI=document.getElementById("volread");
-					 UI.innerHTML=store2;
+					 UI.innerHTML=store2+"V";
 					}
 				  }
 				  xmlhttp2.open("GET","refresh.php?q="+int,true);
@@ -58,7 +58,7 @@ function getPhase(int)
 					if (xmlhttp3.readyState==4 && xmlhttp3.status==200) {
 					 var store3 = xmlhttp3.responseText;
 					 var UI=document.getElementById("pharead");
-					    UI.innerHTML=store3;
+					    UI.innerHTML=store3+"Rad";
 				
 					}
 				  }
@@ -80,7 +80,7 @@ function getPhase(int)
 					if (xmlhttp4.readyState==4 && xmlhttp4.status==200) {
 					 var store4 = xmlhttp4.responseText;
 							 var UI=document.getElementById("freread");
-					 UI.innerHTML = store4;
+					 UI.innerHTML = store4+"Hz";
 					
 					 }
 				
@@ -90,60 +90,9 @@ function getPhase(int)
 				  xmlhttp4.send();
 				}
 </script>
- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-	<script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-	  /*$.getJSON('action_page.php', function(json) {
-	  alert(JSON.stringify(json));
-			//var dataTable = new google.visualization.DataTable(json);
-		});*/
-	  var dataTable=null;
-	  var chart=null;
-	  var options;
-	  var oldTime=null;
-      function drawChart() {
-	  
-	  $.getJSON('action_page.php', function(json) {
-	  //alert(JSON.stringify(json));
-		    dataTable = new google.visualization.DataTable();
-			dataTable.addColumn('datetime',   'time');
-			 dataTable.addColumn('number', 'current');
-			 oldTime=json[0].time;
-			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
-			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
-		options = {
-          title: 'Sensor',
-          curveType: 'function',
-		  pointSize: 3,
-		   vAxis: {minValue:0, maxValue:10},
-		  pointShape: 'circle',	
-          legend: { position: 'top' }
-        };
-
-        chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(dataTable, options);
-		});
-		var app=200;
-		setInterval(function(){
-			$.getJSON('action_page.php', function(json) {
-			if(!(oldTime===json[0].time))
-				dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);	
-			console.log(dataTable.getNumberOfRows());
-		if (dataTable.getNumberOfRows()>100)
-				{
-					dataTable.removeRow(0);		
-				}
-			});
-			chart.draw(dataTable, options);
-			console.log(app); 
-			app=app+200;
-		},500)
-      }
-    </script>
-</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="chart.js"></script>
 <style>
 
 h1
@@ -187,38 +136,6 @@ li a:active
  background-color: #50ff50;
  color: black;
 }
-#back
-{ 
-  height: 510px;
-  width : 100%;
-  background-color: white;
-  
-}
-img
-{
- height: 510px;
-  width : 100%;
-}
-#about
-{
- height: 300px;
-  width : 100%;
-  background-color: black;
-}
-#graph
-{
- font-family:impact;
- color:white;
- margin:50px;
- height:300px;
- width:50%;
-}
-#maindiv
-{ 
- background-color:#333;
- margin-top:-33px;
- padding-bottom:0px;
-}
 </style>
 </head>
 <body> 
@@ -231,44 +148,24 @@ img
   <li><a href="past.html">Past 30 Days</a></li>
  <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">POWER</a></li><span>
 </ul>
-<div id="maindiv" style="height:100%" >
- <div id="graph">
- <p><br>
-  PHASE
- </p>
-  <img src="chart1.png" alt="mockdata" style="height:300px;width:684px">
-</div>
+<div style="background-color:#333;margin-top:17px ;background: linear-gradient(to bottom right, #222, #666);">
+<span style="position:relative;color:white;left:1000px;top:300px;position:relative;font-family:impact;font-size:50px" id="curread" ></span>
+<div><p style="text-align:center;padding:10px;color:white;font-family:impact;font-size:20px;background-color:red;width=100%;margin-top:-40px"> CURRENT </p>
 
- <div id="graph">
- <p><br>
-  FREQUENCY
- </p>
-  <img src="chart1.png" alt="mockdata" style="height:300px;width:684px">
-</div>
- <div id="graph">
- <p><br>
-  VOLTAGE
- </p>
-  <img src="chart1.png" alt="mockdata" style="height:300px;width:684px">
-  </div>
- <div id='graph'>
-  <p><br>
-  CURRENT
-   </p>
-   <div id="curve_chart"/>
-   </div>
-</div>
+<div id="curve_chart1" style="width: 900px; height: 500px;padding:10px"></div>
+<span style="position:relative;color:white;left:1000px;top:300px;position:relative;font-family:impact;font-size:50px" id="volread" ></span>
+<div><p style="text-align:center;padding:10px;color:white;font-family:impact;font-size:20px;background-color:red;width=100%"> VOLTAGE </p>
 
-<div>
-<h2 style="padding:50px;text-family:corbel;color:white;background-color:red">REAL TIME READINGS</h2> 
-<p id="curread" style="text-family:corbel;color=#fff"></p>
-<p id="volread" style="text-family:corbel;color=#FFFFFF"></p>
-<p id="freread" style="text-family:corbel;color=white"></p>
-<p id="pharead" style="text-family:corbel;color=#ffffff"></p>
-</div>
-</div>
+<div id="curve_chart2" style="width: 900px; height: 500px;padding:10px"></div>
+<span style="position:relative;color:white;left:1000px;top:300px;position:relative;font-family:impact;font-size:50px" id="freread" ></span>
+<div><p style="text-align:center;padding:10px;color:white;font-family:impact;font-size:20px;background-color:red;width=100%"> FREQUENCY </p>
 
+<div id="curve_chart3" style="width: 900px; height: 500px;padding:10px"></div>
+<span style="position:relative;color:white;left:1000px;top:300px;position:relative;font-family:impact;font-size:50px" id="pharead" ></span>
+<div><p style="text-align:center;padding:10px;color:white;font-family:impact;font-size:20px;background-color:red;width=100%"> PHASE </p>
+<div id="curve_chart4" style="width: 900px; height: 500px;padding:10px"></div>
 
+</div>   
 
 </body>
 </html>

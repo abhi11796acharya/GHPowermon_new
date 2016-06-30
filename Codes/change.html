@@ -2,12 +2,7 @@
 <html>
 <head>
 <style>
-body
-{
-	background-image:url("");
-	background-attachment:fixed;
-	
-}
+
 h1
 { 
   border: 100%;
@@ -19,8 +14,7 @@ h1
   
 }
 p
-{ color: orange;
-
+{ color: white;
     width: 360px;
     padding: 10px;
     border: 5px solid gray;
@@ -52,10 +46,7 @@ li a:hover {
     background-color: #50ff50;
 	color: black;
 }
-p:hover {
-    background-color: #50ff50;
-	color: black;
-}
+
 span a:hover{
     background-color: red;
 	color: black;
@@ -131,10 +122,17 @@ h2
  <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">POWER</a></li><span>
 </ul>
 <div id="back" >
-<h2>ABOUT</h2>
-<p id="abbox" style="float:left; border:none;width:35%;text-align:justify;margin-top:0px;">Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..
-Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..
-Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for space..Random Data.. Checking for spac</p>
+<b><h2>ABOUT</h2></b>
+<p id="abboz" style="float:left; border:none;width:35%;text-align:justify;margin-top:0px;">With IoT, things have now become "smart". With this project we aim to make a "smart" device which is able to monitor electrical consumptions of various appliances(exhaust fan,fogger, water pump etc), inform the user about consumption and provide options for scheduling turn on/off time of appliance. The system will consist of a wi-fi enabled device which measure and display power consumption of an appliance. Device should be capable of turning on/off the device from web, scheduling the on/off time of the device.
+<br>System will have following components:<br>
+
+<br>1. A Voltage, Current, Phase and frequency measuring Circuit.<br>
+<br>2. Microcontroller based system which is wifi enabled and after measuring the electrical parameters, it is able to log those parameters in database and display it on web interface with proper visualization
+<br><br>3. User interface for controlling devices from web<br>
+<br>4. Feature to turn on/off device based on rules/schedule set by user
+<br><br>5. Design PCB of circuit and a miniaturized device which can fit in spike guard/switch board for ensuring easy installation in existing system.   
+
+</p>
 <a href="current.html"><span style="display:block"><button class="button button1" style="width:500px;margin:20px 60px">START MONITORING</button></span></a>
 <a href="past.html"><span style="display:block"><button class="button button1" style="width:500px;margin:20px 60px">GET LOG DATA</button></span></a>
 <a href="test.html"><span style="display:block"><button class="button button1" style="width:500px;margin:20px 60px">POWER</button></span></a>
