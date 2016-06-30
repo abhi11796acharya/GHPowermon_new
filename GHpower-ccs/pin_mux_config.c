@@ -58,11 +58,13 @@ void PinMuxConfig(void)
     PinModeSet(PIN_08, PIN_MODE_0);
     PinModeSet(PIN_53, PIN_MODE_0);
     PinModeSet(PIN_55, PIN_MODE_0);
-    PinModeSet(PIN_59, PIN_MODE_0);
+    PinModeSet(PIN_57, PIN_MODE_0);
     PinModeSet(PIN_60, PIN_MODE_0);
     PinModeSet(PIN_61, PIN_MODE_0);
     PinModeSet(PIN_62, PIN_MODE_0);
     PinModeSet(PIN_63, PIN_MODE_0);
+    PinModeSet(PIN_15, PIN_MODE_0);
+    PinModeSet(PIN_04, PIN_MODE_0);
     
     //
     // Enable Peripheral Clocks 
@@ -78,7 +80,7 @@ void PinMuxConfig(void)
     //
     // Configure PIN_17 for TimerPWM0 GT_PWM00
     //
-    PinTypeTimer(PIN_17, PIN_MODE_5);
+   // PinTypeTimer(PIN_17, PIN_MODE_5);
 
     //
     // Configure PIN_21 for TimerPWM2 GT_PWM02
@@ -86,7 +88,7 @@ void PinMuxConfig(void)
     PinTypeTimer(PIN_21, PIN_MODE_9);
 
     //
-    // Configure PIN_57 for ADC0 ADC_CH0
+    // Configure PIN_59 for ADC0 ADC_CH2
     //
     PinTypeADC(PIN_59, PIN_MODE_255);
 
@@ -114,15 +116,9 @@ void PinMuxConfig(void)
     GPIODirModeSet(GPIOA1_BASE, 0x8, GPIO_DIR_MODE_OUT);
 
     //
-    // Configure PIN_04 for GPIO Input
+    // Configure PIN_05 for GPIO Input
     //
-    PinTypeGPIO(PIN_04, PIN_MODE_0, false);
-    GPIODirModeSet(GPIOA1_BASE, 0x20, GPIO_DIR_MODE_IN);
-
-    //
-    // Configure PIN_15 for GPIO Input
-    //
-    PinTypeGPIO(PIN_15, PIN_MODE_0, false);
+    PinTypeGPIO(PIN_05, PIN_MODE_0, false);
     GPIODirModeSet(GPIOA2_BASE, 0x40, GPIO_DIR_MODE_IN);
 
     //

@@ -55,7 +55,7 @@ static void BusFaultHandler(void);
 extern void _c_int00(void);
 extern void INT_1(void);
 extern void INT_2(void);
-
+extern void TIMER0A_INT(void);
 
 //*****************************************************************************
 //
@@ -91,8 +91,8 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // The PendSV handler
     IntDefaultHandler,                      // The SysTick handler
     IntDefaultHandler,                      // GPIO Port A0
-    IntDefaultHandler,                      // GPIO Port A1
-    INT_1,          			            // GPIO Port A2
+    INT_1,                                  // GPIO Port A1
+	IntDefaultHandler,           			// GPIO Port A2
     INT_2,			            	        // GPIO Port A3
     0,                                      // Reserved
     IntDefaultHandler,                      // UART0 Rx and Tx
@@ -105,7 +105,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // ADC Channel 2
     IntDefaultHandler,                      // ADC Channel 3
     IntDefaultHandler,                      // Watchdog Timer
-    IntDefaultHandler,                      // Timer 0 subtimer A                      
+    TIMER0A_INT,           		            // Timer 0 subtimer A
     IntDefaultHandler,                      // Timer 0 subtimer B
     IntDefaultHandler,                      // Timer 1 subtimer A
     IntDefaultHandler,                      // Timer 1 subtimer B
