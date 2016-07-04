@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.19)  30 JUN 2016 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.19)  4 JUL 2016 11:15
 entering extended mode
 **./Progress-Presentation.tex
 (Progress-Presentation.tex
@@ -919,26 +919,22 @@ Overfull \hbox (30.3835pt too wide) in paragraph at lines 84--84
 
 [5
 
- <./circuit.png>] <voltage_circuit.png, id=212, 1040.38687pt x 843.15pt>
+ <./circuit.png>] <voltage_circuit.png, id=212, 1347.53438pt x 710.655pt>
 File: voltage_circuit.png Graphic file (type png)
 
 <use voltage_circuit.png>
-Package pdftex.def Info: voltage_circuit.png used on input line 96.
-(pdftex.def)             Requested size: 207.77701pt x 168.38257pt.
+Package pdftex.def Info: voltage_circuit.png used on input line 97.
+(pdftex.def)             Requested size: 301.1261pt x 158.80609pt.
+ [6
 
-Overfull \vbox (8.77185pt too high) detected at line 96
- []
-
-[6
-
- <./voltage_circuit.png>] <voltage1.png, id=247, 1032.10594pt x 438.13687pt>
+ <./voltage_circuit.png>]
+<voltage1.png, id=247, 1032.10594pt x 438.13687pt>
 File: voltage1.png Graphic file (type png)
-
-<use voltage1.png>
-Package pdftex.def Info: voltage1.png used on input line 101.
+ <use voltage1.png>
+Package pdftex.def Info: voltage1.png used on input line 102.
 (pdftex.def)             Requested size: 301.1261pt x 127.82526pt.
 
-Overfull \hbox (10.38347pt too wide) in paragraph at lines 101--101
+Overfull \hbox (10.38347pt too wide) in paragraph at lines 102--102
  [] 
  []
 
@@ -948,7 +944,7 @@ Overfull \hbox (10.38347pt too wide) in paragraph at lines 101--101
 File: freq_circuit1.png Graphic file (type png)
 
 <use freq_circuit1.png>
-Package pdftex.def Info: freq_circuit1.png used on input line 114.
+Package pdftex.def Info: freq_circuit1.png used on input line 115.
 (pdftex.def)             Requested size: 301.1261pt x 149.04906pt.
  [8
 
@@ -957,10 +953,10 @@ Package pdftex.def Info: freq_circuit1.png used on input line 114.
 File: freq_circuit2.png Graphic file (type png)
 
 <use freq_circuit2.png>
-Package pdftex.def Info: freq_circuit2.png used on input line 119.
+Package pdftex.def Info: freq_circuit2.png used on input line 120.
 (pdftex.def)             Requested size: 301.1261pt x 155.79802pt.
 
-Overfull \hbox (10.38347pt too wide) in paragraph at lines 119--119
+Overfull \hbox (10.38347pt too wide) in paragraph at lines 120--120
  [] 
  []
 
@@ -970,38 +966,81 @@ Overfull \hbox (10.38347pt too wide) in paragraph at lines 119--119
 <phase_circuit.png, id=351, 1568.86125pt x 632.3625pt>
 File: phase_circuit.png Graphic file (type png)
  <use phase_circuit.png>
-Package pdftex.def Info: phase_circuit.png used on input line 128.
+Package pdftex.def Info: phase_circuit.png used on input line 129.
 (pdftex.def)             Requested size: 301.1261pt x 121.37555pt.
 
-Overfull \hbox (30.3835pt too wide) in paragraph at lines 128--128
+Overfull \hbox (30.3835pt too wide) in paragraph at lines 129--129
  [] 
  []
 
 [10
 
- <./phase_circuit.png>] <page1.png, id=384, 1371.1225pt x 661.47125pt>
+ <./phase_circuit.png>] <block.png, id=385, 770.88pt x 292.84406pt>
+File: block.png Graphic file (type png)
+
+<use block.png>
+Package pdftex.def Info: block.png used on input line 135.
+(pdftex.def)             Requested size: 301.1261pt x 114.39192pt.
+
+Overfull \hbox (10.38347pt too wide) in paragraph at lines 135--135
+ [] 
+ []
+
+[11
+
+ <./block.png>] <datalog_volt.png, id=420, 914.66719pt x 438.13687pt>
+File: datalog_volt.png Graphic file (type png)
+
+<use datalog_volt.png>
+Package pdftex.def Info: datalog_volt.png used on input line 141.
+(pdftex.def)             Requested size: 301.1261pt x 144.23796pt.
+
+Overfull \hbox (10.38347pt too wide) in paragraph at lines 141--141
+ [] 
+ []
+
+[12
+
+ <./datalog_volt.png>] <page1.png, id=455, 1371.1225pt x 661.47125pt>
 File: page1.png Graphic file (type png)
 
 <use page1.png>
-Package pdftex.def Info: page1.png used on input line 138.
+Package pdftex.def Info: page1.png used on input line 152.
 (pdftex.def)             Requested size: 250.93842pt x 121.05814pt.
- [11
+ [13
 
  <./page1.png>]
-<page2.png, id=418, 1038.12843pt x 1001.24063pt>
+<page2.png, id=490, 1038.12843pt x 1001.24063pt>
 File: page2.png Graphic file (type png)
  <use page2.png>
-Package pdftex.def Info: page2.png used on input line 146.
+Package pdftex.def Info: page2.png used on input line 160.
 (pdftex.def)             Requested size: 200.75073pt x 193.61406pt.
- [12
+ [14
 
- <./page2.png>] [13
-
-] [14
-
-] [15
+ <./page2.png>] [15
 
 ] [16
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 193.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 193.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 193.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[17
+
+] [18
 
 ]
 \tf@nav=\write6
@@ -1013,11 +1052,11 @@ Package pdftex.def Info: page2.png used on input line 146.
 \tf@snm=\write8
 \openout8 = `Progress-Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (Progress-Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D2FED57DE3FAEB3746E7E723A06ABCCE;350.
 
@@ -1025,24 +1064,25 @@ Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 16751 strings out of 493634
- 323642 string characters out of 3143747
+ 16833 strings out of 493634
+ 325455 string characters out of 3143747
  392573 words of memory out of 3000000
- 19716 multiletter control sequences out of 15000+200000
- 5752 words of font info for 21 fonts, out of 3000000 for 9000
+ 19774 multiletter control sequences out of 15000+200000
+ 8809 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  56i,17n,55p,404b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Progress-Presentation.pdf (16 pages, 1068788 bytes).
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Progress-Presentation.pdf (18 pages, 1169195 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
