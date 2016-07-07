@@ -2,7 +2,8 @@
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript">
+	<script type="text/javascript" src="chart.js"></script>
+   <!-- <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
      
 	  /*$.getJSON('action_page.php', function(json) {
@@ -21,7 +22,7 @@
 	  //alert(JSON.stringify(json));
 		    dataTable1 = new google.visualization.DataTable();
 			dataTable1.addColumn('datetime',   'time');
-			 dataTable1.addColumn('number', 'current');
+			 dataTable1.addColumn('number', 'Current');
 			 oldTime1=json[0].time;
 			 dataTable1.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
@@ -61,7 +62,7 @@
 	  //alert(JSON.stringify(json));
 		    dataTable2 = new google.visualization.DataTable();
 			dataTable2.addColumn('datetime',   'time');
-			 dataTable2.addColumn('number', 'voltage');
+			 dataTable2.addColumn('number', 'Voltage');
 			 oldTime2=json[0].time;
 			 dataTable2.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
@@ -144,7 +145,7 @@
 	  //alert(JSON.stringify(json));
 		    dataTable4 = new google.visualization.DataTable();
 			dataTable4.addColumn('datetime',   'time');
-			 dataTable4.addColumn('number', 'current');
+			 dataTable4.addColumn('number', 'Phase');
 			 oldTime4=json[0].time;
 			 dataTable4.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
@@ -180,7 +181,7 @@
 		}
 		setInterval(function(){updater1();updater2();updater3();updater4();},500);
       }
-    </script>
+    </script>-->
   </head>
   <body>
     <div id="curve_chart1" style="width: 900px; height: 500px"></div>

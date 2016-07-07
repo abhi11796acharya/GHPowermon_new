@@ -1,6 +1,7 @@
 <?php
-
-
+$m = intval($_GET['m']);
+$s = intval($_GET['s']);
+$choice = intval($_GET['x']);
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -13,10 +14,33 @@ $conn = new mysqli($servername, $username, $password,$dbname);
 				{
 					die("Connection failed: " . $conn->connect_error);
 				} 
-					$sql = "SELECT Current1, Voltage, frequency,phase,reg_date FROM reading 
-					WHERE (MINUTE(reg_date),SECOND(reg_date))=($m,$s)";
+				
+				$selection=array();
+				 
+				  if($choice==1)
+					$selection = " WHERE (MINUTE(reg_date),SECOND(reg_date))=($m,$s)";
+				  else if($choice==0)
+					$selection = "";
+				  else if($choice==2)
+					$selection = " WHERE (MINUTE(reg_date))=($m)";
+				
+					$sql = "SELECT Current1, Voltage, frequency,phase,reg_date FROM reading".$selection;
+					
 					$result = $conn->query($sql);
+	
+					
+					
 $jsonarray=array();
+$list = array();
+
+$file = fopen("log.csv", "w");
+foreach ($list as $line)
+  {
+  fputcsv($file,explode(',',$line));
+  }
+fclose($file); 
+$file = fopen("log.csv", "a");
+
 if ($result->num_rows > 0) 
 {
     // output data of each row
@@ -28,14 +52,27 @@ if ($result->num_rows > 0)
 							$jsonItem['Frequency']=$row['frequency'];
 							$jsonItem['Phase']=$row['phase'];
 							$jsonItem['Time']=$row['reg_date'];
-							array_push($jsonarray,$jsonItem);
-							echo json_encode($jsonarray);
-       
+							array_push($jsonarray,$jsonItem);	
+							$Current=$row['Current1'];
+							$Voltage=$row['Voltage'];
+							$Frequency=$row['frequency'];
+							$Phase=$row['phase'];
+							$Time =$row['reg_date'];
+							
+							$list=array("$Current,$Voltage,$Frequency,$Phase,$Time");
+							foreach ($list as $line)
+									{
+										fputcsv($file,explode(',',$line));
+									}
+							
     }
-} else 
+}
+ else 
 {
     echo "0 results";
-}
-
+} 
+                      echo json_encode($jsonarray);
+					  
+fclose($file);							
 $conn->close();
 ?>
