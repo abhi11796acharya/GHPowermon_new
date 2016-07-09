@@ -7,8 +7,13 @@ $pha = (isset($_GET['pha']) ? $_GET['pha'] : null);
 $fre = (isset($_GET['fre']) ? $_GET['fre'] : null);
 $vol = (isset($_GET['vol']) ? $_GET['vol'] : null);
 
-//echo "$cur $pha $fre $vol" ;
-
+echo "$cur $pha $fre $vol" ;
+/*
+$cur = $_POST['cur'];
+$pha = $_POST['pha'];
+$fre = $_POST['fre'];
+$vol = $_POST['vol'];
+*/
 $servername = "localhost"; 
 $username = "root";
 $password = "";
@@ -21,13 +26,13 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 else {
-   //echo " Connected " ;
+   echo " Connected " ;
 }
  
 $sql =  "INSERT INTO para (id,RT) VALUES (1,$cur),(2,$vol),(3,$fre),(4,$pha) ON DUPLICATE KEY UPDATE RT=VALUES(RT),reg_date=NOW()";
 
 if (mysqli_query($conn, $sql)) {
-   //echo " New record1 created successfully";
+   echo " New record1 created successfully";
    $sql = "SELECT reg_date FROM para WHERE id=1";
     
 	 $result = $conn->query($sql);
@@ -66,37 +71,28 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 else { 
-  // echo " Connected" ;
+   echo " Connected" ;
 }
  $sql =  "INSERT INTO reading (Current1,Voltage,frequency,Phase,reg_date) VALUES ($cur,$vol,$fre,$pha,NOW())";
  
  if (mysqli_query($conn, $sql)) {
-   // echo "  New record2 created successfully";
+    echo "  New record2 created successfully";
+} else {
+   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+$p=1;
+$sql =  "UPDATE power SET button=$p";
+
+if (mysqli_query($conn, $sql)) {
+    echo "  New record3 created successfully";
+	echo " Button Status: $p ";
 } else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
 
-if (mysqli_query($conn, $sql)) 
-    {
-   // echo "  New record3 created successfully";
-	  
-	}
-	else
-	{
-   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-    }
 
- $sql = "SELECT button
-						   FROM power";
-					$result = $conn->query($sql);
+//$sql="CREATE EVENT del_entries ON SCHEDULE EVERY 1 DAY DO DELETE FROM reading WHERE reg_date < NOW() - INTERVAL 1 DAY";
 
-					if ($result->num_rows > 0) {
-						// output data of each row
-						while($row = $result->fetch_assoc()) 
-						{
-						   echo $row["button"];
-						}
-					}
  $conn->close();
 ?>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4)",500);
+           function getCurrent(int) 
+				{
+				 if (window.XMLHttpRequest)
+				 {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp1=new XMLHttpRequest();
+				  } else 
+				  {  // code for IE6, IE5
+					var xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
+				  }
+				  var store1= xmlhttp1.onreadystatechange=function()
+				  {
+					if (xmlhttp1.readyState==4 && xmlhttp1.status==200)
+					{
+			var store = xmlhttp1.responseText;
+					 var UI=document.getElementById("curread");
+					   UI.innerHTML =store;
+					}
+				  }
+				  xmlhttp1.open("GET","refresh.php?q="+int,true);
+				  xmlhttp1.send();
+				}
+				
+				
+		 function getVoltage(int) 
+				{
+				 if (window.XMLHttpRequest) {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp2=new XMLHttpRequest();
+				  } else {  // code for IE6, IE5
+					var xmlhttp2=new ActiveXObject("Microsoft.XMLHTTP");
+				  }
+				  xmlhttp2.onreadystatechange=function() {
+					if (xmlhttp2.readyState==4 && xmlhttp2.status==200) {
+					 var store2 = xmlhttp2.responseText;
+					 var UI=document.getElementById("volread");
+					 UI.innerHTML=store2;
+					}
+				  }
+				  xmlhttp2.open("GET","refresh.php?q="+int,true);
+				  xmlhttp2.send();
+				}
+
+function getPhase(int) 
+				{
+				 if (window.XMLHttpRequest) {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp3=new XMLHttpRequest();
+				  } else {  // code for IE6, IE5
+					var xmlhttp3=new ActiveXObject("Microsoft.XMLHTTP");
+				  }
+				  xmlhttp3.onreadystatechange=function() {
+					if (xmlhttp3.readyState==4 && xmlhttp3.status==200) {
+					 var store3 = xmlhttp3.responseText;
+					 var UI=document.getElementById("pharead");
+					    UI.innerHTML=store3;
+				
+					}
+				  }
+				  xmlhttp3.open("GET","refresh.php?q="+int,true);
+				  xmlhttp3.send();
+				}
+
+ 
+  function getFrequency(int) 
+				{
+				 if (window.XMLHttpRequest) {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp4=new XMLHttpRequest();
+				  } else {  // code for IE6, IE5
+					var xmlhttp4=new ActiveXObject("Microsoft.XMLHTTP");
+				  }
+				  xmlhttp4.onreadystatechange=function() 
+				  {
+					if (xmlhttp4.readyState==4 && xmlhttp4.status==200) {
+					 var store4 = xmlhttp4.responseText;
+							 var UI=document.getElementById("freread");
+					 UI.innerHTML = store4;
+					
+					 }
+				
+					}
+				  
+				  xmlhttp4.open("GET","refresh.php?q="+int,true);
+				  xmlhttp4.send();
+				}
+</script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript">
+		
+	  google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart3);
+	  var dataTable3=null;
+	  var chart3=null;
+	  var options3;
+	  var oldTime3=null;
+      function drawChart3() {
+	  
+	  $.getJSON('action_page.php/?q=1', function(json) {
+	  //alert(JSON.stringify(json));
+		    dataTable3 = new google.visualization.DataTable();
+			dataTable3.addColumn('datetime',   'time');
+			 dataTable3.addColumn('number', 'Value');
+			 oldTime3=json[0].time;
+			 dataTable3.addRow([new Date(json[0].time), parseInt(json[0].value)]);
+			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+		options3 = {
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 5,
+		   vAxis: {minValue:0, maxValue:100},
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+
+        chart3 = new google.visualization.LineChart(document.getElementById('graph3'));
+
+        chart3.draw(dataTable3, options3);
+		});
+		var app=200;
+		setInterval(function(){
+			$.getJSON('action_page.php/?q=1', function(json) {
+			if(!(oldTime3===json[0].time))
+				dataTable3.addRow([new Date(json[0].time), parseInt(json[0].value)]);	
+			console.log(dataTable3.getNumberOfRows());
+		if (dataTable3.getNumberOfRows()>100)
+				{
+					dataTable3.removeRow(0);		
+				}
+			});
+			chart3.draw(dataTable3, options3);
+			console.log(app); 
+			app=app+200;
+		},500)
+      }
+    </script>
+	 <script type="text/javascript">
+       google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart2);
+	  /*$.getJSON('action_page.php', function(json) {
+	  alert(JSON.stringify(json));
+			//var dataTable = new google.visualization.DataTable(json);
+		});*/
+	  var dataTable2=null;
+	  var chart2=null;
+	  var options2;
+	  var oldTime2=null;
+      function drawChart2() {
+	  
+	  $.getJSON('action_page.php/?q=2', function(json) {
+	  //alert(JSON.stringify(json));
+		    dataTable2 = new google.visualization.DataTable();
+			dataTable2.addColumn('datetime',   'time');
+			 dataTable2.addColumn('number', 'Value');
+			 oldTime2=json[0].time;
+			 dataTable2.addRow([new Date(json[0].time), parseInt(json[0].value)]);
+			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+		options2 = {
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 5,
+		   vAxis: {minValue:0, maxValue:100},
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+
+        chart2 = new google.visualization.LineChart(document.getElementById('graph2'));
+
+        chart2.draw(dataTable2, options2);
+		});
+		var app2=200;
+		setInterval(function(){
+			$.getJSON('action_page.php/?q=2', function(json) {
+			if(!(oldTime2===json[0].time))
+				dataTable2.addRow([new Date(json[0].time), parseInt(json[0].value)]);	
+			console.log(dataTable2.getNumberOfRows());
+		if (dataTable2.getNumberOfRows()>100)
+				{
+					dataTable2.removeRow(0);		
+				}
+			});
+			chart2.draw(dataTable2, options2);
+			console.log(app2); 
+			app2=app2+200;
+		},500)
+      }
+    </script>
+	 <script type="text/javascript">
+	  /*$.getJSON('action_page.php', function(json) {
+	  alert(JSON.stringify(json));
+			//var dataTable = new google.visualization.DataTable(json);
+		});*/
+		google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart1);
+	  var dataTable1=null;
+	  var chart1=null;
+	  var options1;
+	  var oldTime1=null;
+      function drawChart1() {
+	  
+	  $.getJSON('action_page.php/?q=4', function(json) {
+	  //alert(JSON.stringify(json));
+		    dataTable1 = new google.visualization.DataTable();
+			dataTable1.addColumn('datetime',   'time');
+			 dataTable1.addColumn('number', 'Value');
+			 oldTime1=json[0].time;
+			 dataTable1.addRow([new Date(json[0].time), parseInt(json[0].value)]);
+			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+		options1 = {
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 5,
+		   vAxis: {minValue:0, maxValue:100},
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+
+        chart1 = new google.visualization.LineChart(document.getElementById('graph1'));
+
+        chart1.draw(dataTable1, options1);
+		});
+		var app1=200;
+		setInterval(function(){
+			$.getJSON('action_page.php/?q=4', function(json) {
+			if(!(oldTime1===json[0].time))
+				dataTable1.addRow([new Date(json[0].time), parseInt(json[0].value)]);	
+			console.log(dataTable1.getNumberOfRows());
+		if (dataTable1.getNumberOfRows()>100)
+				{
+					dataTable1.removeRow(0);		
+				}
+			});
+			chart1.draw(dataTable1, options1);
+			console.log(app1); 
+			app1=app1+200;
+		},500)
+      }
+    </script>
+	 <script type="text/javascript">
+	  google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart2);
+	  var dataTable=null;
+	  var chart=null;
+	  var options;
+	  var oldTime=null;
+      function drawChart() {
+	  
+	  $.getJSON('action_page.php/?q=3', function(json) {
+	  //alert(JSON.stringify(json));
+		    dataTable = new google.visualization.DataTable();
+			dataTable.addColumn('datetime',   'time');
+			 dataTable.addColumn('number', 'Value');
+			 oldTime=json[0].time;
+			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].value)]);
+			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+		options = {
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 5,
+		   vAxis: {minValue:0, maxValue:100},
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+
+        chart = new google.visualization.LineChart(document.getElementById('graph3'));
+
+        chart.draw(dataTable, options);
+		});
+		var app=200;
+		setInterval(function(){
+			$.getJSON('action_page.php/?q=3', function(json) {
+			if(!(oldTime===json[0].time))
+				dataTable.addRow([new Date(json[0].time), parseInt(json[0].value)]);	
+			console.log(dataTable.getNumberOfRows());
+		if (dataTable.getNumberOfRows()>100)
+				{
+					dataTable.removeRow(0);		
+				}
+			});
+			chart.draw(dataTable, options);
+			console.log(app); 
+			app=app+200;
+		},500)
+      }
+    </script>
+	
+<style>
+
+h1
+{ 
+  border: 100%;
+  background-color : #50ff50;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: corbel;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: impact;
+}
+
+li a:hover {
+    background-color: #50ff50;
+	color: black;
+}
+li a:active
+{ 
+ background-color: #50ff50;
+ color: black;
+}
+#back
+{ 
+  height: 510px;
+  width : 100%;
+  background-color: white;
+  
+}
+img
+{
+ height: 510px;
+  width : 100%;
+}
+#about
+{
+ height: 300px;
+  width : 100%;
+  background-color: black;
+}
+#graph
+{
+ font-family:impact;
+ color:white;
+ margin:50px;
+ height:300px;
+ width:50%;
+}
+#maindiv
+{ 
+ background-color:#333;
+ margin-top:-33px;
+ padding-bottom:0px;
+}
+</style>
+</head>
+<body> 
+<h1>
+    <strong>GREEN HOUSE POWER MONITORING</strong>
+</h1>
+<ul>
+  <li><a class="active" href="change.html">Home</a></li> 
+  <li><a href="current.html">Current Status</a></li>
+  <li><a href="past.html">Past 30 Days</a></li>
+ <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">POWER</a></li><span>
+</ul>
+<div id="maindiv" style="height:100%" >
+ <div>
+	<p>CURRENT</p>
+	   <div id="graph"  style="width:70%;height:600px" />
+ </div>	   
+ <div>
+	<p>VOLTAGE</p>
+	   <div id="graph2" style="width:70%;height:600px"/>
+ </div>	
+ <div>
+	<p>PHASE</p>
+	    <div id="graph3" style="width:70%;height:400px;margin-left:40px;padding:0px"/>
+ </div>	
+ <div>
+	<p>FREQUENCY</p>
+	  <div id="graph4" style="width:70%;height:400px"/>
+ </div>	
+
+
+<div>
+<h2 style="padding:50px;text-family:corbel;color:white;background-color:red">REAL TIME READINGS</h2> 
+<p id="curread" style="text-family:corbel;color:#fff"></p>
+<p id="volread" style="text-family:corbel;color:#FFFFFF"></p>
+<p id="freread" style="text-family:corbel;color:white"></p>
+<p id="pharead" style="text-family:corbel;color:#ffffff"></p>
+</div>
+</div>
+
+
+</body>
+</html>
