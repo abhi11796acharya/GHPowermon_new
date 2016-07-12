@@ -95,11 +95,12 @@ else {
 						
 						while($row = $result->fetch_assoc()) 
 						{
-						   echo $row["button"];
+						   //echo $row["button"];
+						   $old_stat=$row["button"];
 						}
 					}
 					
-$sql = "SELECT Switch_on,Switch_off FROM scheduled";
+$sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled";
  
    if (mysqli_query($conn, $sql)) {
    //echo "  New record3  created successfully    ";
@@ -114,28 +115,58 @@ $sql = "SELECT Switch_on,Switch_off FROM scheduled";
 						
 						while($row = $result->fetch_assoc()) 
 						{
-						  
-						   echo $row["Switch_on"];
-						   echo $row["Switch_on"];
+						  if($row["Button_change"]==0)
+						  {
 						   if($s_date <= $row["Switch_on"] && $s_date <= $row["Switch_off"] )
-						   {
-							   echo "Lower than both";
+						   {   
+								//echo $old_stat;
+					         //  echo "Lower than both";
+							   if($old_stat==1)     
+							      $b_stat = "1";
+							   else
+								   $b_stat="0";
+							 
 						   }
 						   else if($s_date >= $row["Switch_on"] && $s_date <= $row["Switch_off"] )
 						   {
-							   echo "greater than ON, lesser than OFF, FOLLOW ON";
+							   //echo "greater than ON, lesser than OFF, FOLLOW ON";
+							   $b_stat="1";
 						   }
 						    else if($s_date >= $row["Switch_off"] && $s_date <= $row["Switch_on"] )
 						   {
-							   echo "greater than OFF, lesser than ON, FOLLOW OFF";
+							   //echo "greater than OFF, lesser than ON, FOLLOW OFF";
+							   $b_stat="0";
 						   }
 						    else if($s_date >= $row["Switch_on"] && $s_date >= $row["Switch_off"] )
 						   {
-							   echo "greater than Both";
+							  // echo "greater than Both";
+							   if($row["Switch_on"] >= $row["Switch_off"])
+								$b_stat="1";
+							   else
+								 $b_stat="0";
+							   
 						   }
 						}
+						
+						else 
+						{
+							 if($old_stat==1)     
+							      $b_stat = "1";
+							   else
+								   $b_stat="0";
+						}
+					  }	
 					}
-										
 					
+
+ $sql =  "UPDATE power SET button = $b_stat";
+ 
+  if (mysqli_query($conn, $sql)) 
+  {
+	   echo "$b_stat";
+  }
+ else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+      }
  $conn->close();
 ?>

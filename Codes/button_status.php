@@ -20,6 +20,16 @@ if ($conn->connect_error)
  else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+ $sql =  "UPDATE scheduled SET Button_change = 1 ";
+ 
+  if (mysqli_query($conn, $sql)) 
+  {
+	   //echo "$b_stat";
+  }
+ else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+      }
+
 header("Location:test.html");
 $conn->close();
 

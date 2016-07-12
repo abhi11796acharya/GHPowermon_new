@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "myDB";
+$dbname = "mydb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,13 +12,15 @@ if ($conn->connect_error) {
 } 
 
 // sql to create table
-$sql = "CREATE TABLE MyGuests (
+$sql = "CREATE TABLE para(
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-button INT(6) NOT NULL
+RT FLOAT NOT NULL,
+parameters TEXT NOT NULL,
+reg_date TIMESTAMP
 )";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Table MyGuests created successfully";
+    echo "Table para created successfully";
 } else {
     echo "Error creating table: " . $conn->error;
 }
