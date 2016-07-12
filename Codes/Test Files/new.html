@@ -1,0 +1,151 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+setInterval("getCurrent(1);getVoltage(2);getFrequency(3);getPhase(4);drawchart()",500);
+ 
+ //setInterval("getVote(1)",700);
+//setInterval("getVote(1)",500);
+var store;
+
+           function getCurrent(int) 
+				{
+				 if (window.XMLHttpRequest) 
+				  {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp1=new XMLHttpRequest();
+				  } 
+				  else {  // code for IE6, IE5
+						var xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
+				       }
+						 xmlhttp1.onreadystatechange=function() {
+							if (xmlhttp1.readyState==4 && xmlhttp1.status==200) 
+						  {
+							store = xmlhttp1.responseText;
+					
+							var UI= document.getElementById("curread");
+						UI.innerHTML=store;
+						 }
+				       }
+				    xmlhttp1.open("GET","refresh.php?q="+int,true);
+				    xmlhttp1.send();
+				 }
+			
+           function getVoltage(int) 
+				{
+				 if (window.XMLHttpRequest) 
+				  {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp2=new XMLHttpRequest();
+				  } 
+				  else {  // code for IE6, IE5
+						var xmlhttp2=new ActiveXObject("Microsoft.XMLHTTP");
+				       }
+						 xmlhttp2.onreadystatechange=function() {
+							if (xmlhttp2.readyState==4 && xmlhttp2.status==200) 
+						  {
+							var stor = xmlhttp2.responseText;
+							console.log(stor);
+							 var UI=document.getElementById("volread");
+							UI.innerHTML=stor;
+						 }
+				       }
+				    xmlhttp2.open("GET","refresh.php?q="+int,true);
+				    xmlhttp2.send();
+				 }
+			
+           function getFrequency(int) 
+				{
+				 if (window.XMLHttpRequest) 
+				  {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp3=new XMLHttpRequest();
+				  } 
+				  else {  // code for IE6, IE5
+						var xmlhttp3=new ActiveXObject("Microsoft.XMLHTTP");
+				       }
+						 xmlhttp3.onreadystatechange=function() {
+							if (xmlhttp3.readyState==4 && xmlhttp3.status==200) 
+						  {
+							var store1 = xmlhttp3.responseText;
+							console.log(store1);
+							var UI = document.getElementById("pharead");
+							UI.innerHTML=store1;
+						 }
+				       }
+				    xmlhttp3.open("GET","refresh.php?q="+int,true);
+				    xmlhttp3.send();
+				 }
+			
+			
+           function getPhase(int) 
+				{
+				 if (window.XMLHttpRequest) 
+				  {
+					// code for IE7+, Firefox, Chrome, Opera, Safari
+					var xmlhttp3=new XMLHttpRequest();
+				  } 
+				  else {  // code for IE6, IE5
+						var xmlhttp3=new ActiveXObject("Microsoft.XMLHTTP");
+				       }
+						 xmlhttp3.onreadystatechange=function() {
+							if (xmlhttp3.readyState==4 && xmlhttp3.status==200) 
+						  {
+							var store2 = xmlhttp3.responseText;
+							console.log(store2);
+							var UI= document.getElementById("freread");
+							UI.innerHTML=store2;
+						 }
+				       }
+				    xmlhttp3.open("GET","refresh.php?q="+int,true);
+				    xmlhttp3.send();
+				 }
+			
+				
+
+    google.charts.load('current', {packages: ['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      // Define the chart to be drawn.
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Element');
+      data.addColumn('number', 'Percentage');
+      data.addRows([
+        ['current',0.81],
+        ['Oxygen', 0.21],
+        ['Other', 0.45],
+		['random',0.2]
+      ]);
+
+      // Instantiate and draw the chart.
+      var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
+      chart.draw(data, null);
+    }
+  </script>
+</head>
+<body>
+<div id="myPieChart">
+</div>
+
+<div id="RT" style="background-color:black;height:400px;width:500px;margin:100px;padding:20px;color:white">
+ <h2>
+ Real Time Readings:
+ </h2>
+ 
+ <p>
+ Current: <p id="curread"></p>	
+ </p><br>
+ <p>
+ Voltage: <p id="volread"></p>
+ </p><br>
+ <p>
+ Phase: <p id="pharead"></p>
+ </p><br>
+ <p>
+ Frequency: <p id="freread"></p>
+ </p><br>
+</div>
+</body>
+</html>
