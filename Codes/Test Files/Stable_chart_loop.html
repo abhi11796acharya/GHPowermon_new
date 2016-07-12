@@ -1,0 +1,35 @@
+
+    google.charts.load('current', {'packages':['corechart']});
+      
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart1);
+      
+   function drawChart1() {
+	  
+	  $.getJSON('action_graph_week.php/?c=0', function(json) {
+	 // alert(JSON.stringify(json));
+	  dataTable1 = new google.visualization.DataTable()		
+			
+			dataTable1.addColumn('datetime',   'Time');
+			 dataTable1.addColumn('number', 'Voltage');
+			 for(i=0;i <json.length; i++)
+			 { 
+			  console.log(json[i].Time);
+			  
+			  dataTable1.addRow([new Date(json[i].Time), parseInt(json[i].Voltage)]);
+			 }
+			 
+		options1 = {
+		chartArea: {width: 1300 , height: '80%'},
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 1,
+		   vAxis: {minValue:0, maxValue:10},
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+        chart1 = new google.visualization.LineChart(document.getElementById('curve_chart1'));
+
+        chart1.draw(dataTable1, options1);
+		});
+		}
