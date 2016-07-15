@@ -231,11 +231,11 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
 <div id="back_below">  
   <div>
 <ul id="choice_buttons">
-  <li><a class="active" href="index.php">Home</a></li> 
+  <li><a class="active" href="change.html">Home</a></li> 
   <li><a href="current.html">Current Status</a></li>
   <li><a href="past.php">Past 14 Days</a></li>
-  <li><a class="active" href="select.php">Schedule ON/OFF</a></li>
- <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">LOGOUT</a></li><span>
+  <li><a class="active" href="select.php">Schedule</a></li>
+ <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">POWER</a></li><span>
 </ul>
 </div>
   <br>

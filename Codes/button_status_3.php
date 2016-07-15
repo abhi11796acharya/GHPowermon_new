@@ -1,6 +1,7 @@
 <?php
 $q = intval($_GET['q']);	
 
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -12,7 +13,7 @@ if ($conn->connect_error)
 {
     die("Connection failed: " . $conn->connect_error);	
 } 
- $sql =  "UPDATE power SET button = $q";
+ $sql =  "UPDATE power SET button_3 = $q ";
  
  if (mysqli_query($conn, $sql)) 
  {
@@ -20,7 +21,7 @@ if ($conn->connect_error)
  else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
- $sql =  "UPDATE scheduled SET Button_change = 1 WHERE id = 1  ";
+ $sql =  "UPDATE scheduled SET Button_change = 1 WHERE id = 3 ";
  
   if (mysqli_query($conn, $sql)) 
   {
