@@ -141,11 +141,11 @@ h2
     <strong>GREEN HOUSE POWER MONITORING</strong>
 </h1>
 <ul>
-  <li><a class="active" href="index.php">Home</a></li>
+  <li><a class="active" href="home.php">Home</a></li>
   <li><a class="active" href="current.html">Current Status</a></li>
   <li><a class="active" href="past.php">Past 30 Days</a></li>
   <li><a class="active" href="select.php">Schedule ON/OFF</a></li>
- <span style = "position:absolute;right:5px"> <li><a id="power" href="test.html">LOG IN/OUT</a></li><span>
+ <span style = "position:absolute;right:5px"> <li><a id="power" href="/login-signup-modal-window/index.html">LOG IN/OUT</a></li><span>
 </ul>
 <div id="back" >
 <b><h2>ABOUT</h2></b>
@@ -159,7 +159,7 @@ h2
 <br><br>5. Design PCB of circuit and a miniaturized device which can fit in spike guard/switch board for ensuring easy installation in existing system.   
 
 </p>
-<a href="current.html"><span style="display:block"><button class="button button1" style="width:500px;margin:0px 60px">START MONITORING</button></span></a>
+<a href="index.php"><span style="display:block"><button class="button button1" style="width:500px;margin:0px 60px">START MONITORING</button></span></a>
 <a href="past.php"><span style="display:block"><button class="button button1" style="width:500px;margin:20px 60px">GET LOG DATA</button></span></a>
 <a href="select.php"><span style="display:block"><button class="button button1" style="width:500px;margin:0px 60px">SCHEDULE ON/OFF</button></span></a>
 <a href="test.html"><span style="display:block"><button class="button button2" style="width:500px;margin:20px 60px;">SIGN UP</button></span></a>

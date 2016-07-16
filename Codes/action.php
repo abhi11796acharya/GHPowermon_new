@@ -291,7 +291,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
 					  }	
 					}
 					
-
+/*
  $sql =  "UPDATE power SET button = $b_stat, button_2 = $b_stat_2, button_3 = $b_stat_3 ";
  
   if (mysqli_query($conn, $sql)) 
@@ -304,7 +304,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
  else {
 		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
       }
-	  
+*/
  $sql =  "UPDATE power SET button = $b_stat, button_2 = $b_stat_2, button_3 = $b_stat_3, d_status1 = $dstat1, d_status2 = $dstat2, d_status3 = $dstat3  ";
  
   if (mysqli_query($conn, $sql)) 

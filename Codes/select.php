@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
 <style>	 
@@ -80,13 +81,32 @@ li a:active
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#d_status {
+
+#d_status1 {
 	 display:inline-block;  
 	 border-radius:100%;
 	 height:60px;width:60px;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 	 
 }
+#d_status3{
+	 display:inline-block;  
+	 border-radius:100%;
+	 height:60px;width:60px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	 
+}
+#d_status5 {
+	 display:inline-block;  
+	 border-radius:100%;
+	 height:60px;width:60px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	 
+}
+
 #floating-block
 {
 	display: inline-block;
@@ -99,32 +119,20 @@ li a:active
 
 </style>
 <script>
-setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
-           function getbutton1() 
-				{
-				 if (window.XMLHttpRequest)
-				  {
-					var xmlhttp1=new XMLHttpRequest();
-				  } else 
-				  {
-					var xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
-				  }
-				  xmlhttp1.onreadystatechange=function()
-				  {
-					if (xmlhttp1.readyState==4 && xmlhttp1.status==200)
-					{
-			var store = xmlhttp1.responseText;
-					 
- 					 var UI=document.getElementById("buttony");
-					   if (store==1)
+ function status()
+ {
+	 $.getJSON('button_refresh.php', function(json)
+ {
+	  
+	  //------------------------------------------------------------
+	  var UI=document.getElementById("buttony");
+					   if (json[0].button1==1)
 					   UI.innerHTML = "Switch OFF";
 					   else
 					   UI.innerHTML = "Switch ON";
-					   
-					   
-					 var swtch;  
+				     var swtch;  
 					 var Buttonx=document.getElementById("buttonx");
-					 if(store==1)
+					 if(json[0].button1==1)
 						  {
 						   swtch = 0;
 						  }
@@ -133,94 +141,70 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
 						  swtch = 1;
 						 }
 						Buttonx.href="button_status.php?q="+swtch;   
-					}
-				  }
-				  xmlhttp1.open("GET","button_refresh.php",true);
-				  xmlhttp1.send();
-				}
-			
-
- function getbutton2() 
-				{
-				 if (window.XMLHttpRequest)
-				  {
-					var xmlhttp2=new XMLHttpRequest();
-				  } else 
-				  {
-					var xmlhttp2=new ActiveXObject("Microsoft.XMLHTTP");
-				  }
-				  xmlhttp2.onreadystatechange=function()
-				  {
-					if (xmlhttp2.readyState==4 && xmlhttp2.status==200)
-					{
-			var store = xmlhttp2.responseText;
-					 
- 					 var UI=document.getElementById("buttony_2");
-					   if (store==1)
-					   UI.innerHTML = "Switch OFF";
+			//--------------------------------------------------------------------		   
+					   var UI2=document.getElementById("buttony_2");
+					   if (json[0].button2==1)
+					   UI2.innerHTML = "Switch OFF";
 					   else
-					   UI.innerHTML = "Switch ON";
-					   
-					   
-					 var swtch;  
-					 var Buttonx_2=document.getElementById("buttonx_2");
-					 if(store==1)
+					   UI2.innerHTML = "Switch ON";
+				     var swtch2;  
+					 var Buttonx2=document.getElementById("buttonx_2");
+					 if(json[0].button2==1)
 						  {
-						   swtch = 0;
+						   swtch2 = 0;
 						  }
 						 else 
 						 {
-						  swtch = 1;
+						  swtch2 = 1;
 						 }
-						Buttonx_2.href="button_status_2.php?q="+swtch;   
-					}
-				  }
-				  xmlhttp2.open("GET","button_refresh_2.php",true);
-				  xmlhttp2.send();
-				}
-			
-
-
- function getbutton3() 
-				{
-				 if (window.XMLHttpRequest)
-				  {
-					var xmlhttp3=new XMLHttpRequest();
-				  } else 
-				  {
-					var xmlhttp3=new ActiveXObject("Microsoft.XMLHTTP");
-				  }
-				  xmlhttp3.onreadystatechange=function()
-				  {
-					if (xmlhttp3.readyState==4 && xmlhttp3.status==200)
-					{
-			var store = xmlhttp3.responseText;
-					 
- 					 var UI=document.getElementById("buttony_3");
-					   if (store==1)
-					   UI.innerHTML = "Switch OFF";
+						Buttonx2.href="button_status_2.php?q="+swtch2;
+			//--------------------------------------------------------------			
+						var UI3=document.getElementById("buttony_3");
+					   if (json[0].button3==1)
+					   UI3.innerHTML = "Switch OFF";
 					   else
-					   UI.innerHTML = "Switch ON";
-					   
-					   
-					 var swtch;  
-					 var Buttonx_3=document.getElementById("buttonx_3");
-					 if(store==1)
+					   UI3.innerHTML = "Switch ON";
+				   
+				     var swtch3;  
+					 var Buttonx3=document.getElementById("buttonx_3");
+					 if(json[0].button3==1)
 						  {
-						   swtch = 0;
+						   swtch3 = 0;
 						  }
 						 else 
 						 {
-						  swtch = 1;
+						  swtch3 = 1;
 						 }
-						Buttonx_3.href="button_status_3.php?q="+swtch;   
-					}
-				  }
-				  xmlhttp3.open("GET","button_refresh_3.php",true);
-				  xmlhttp3.send();
-				}
-			
-			
+						Buttonx3.href="button_status_3.php?q="+swtch3;
+						
+				//-----------------------------------------------------------------------	
+				
+					var UI4= document.getElementById("d_status1")
+					   if (parseInt(json[0].d_stat1)==0)
+					 UI4.style.backgroundColor="red";
+				      else 
+					 UI4.style.backgroundColor="#20ff20"
+				//------------------------------------------------------------------------	 
+					var UI5= document.getElementById("d_status3");
+					   if (parseInt(json[0].d_stat2)==0)
+					 UI5.style.backgroundColor="red";
+				      else 
+					 UI5.style.backgroundColor="#20ff20"
+				//------------------------------------------------------------------------	 		   
+					var UI6= document.getElementById("d_status5");
+					   if (parseInt(json[0].d_stat3)==0)
+					 UI6.style.backgroundColor="red";
+				      else 
+					 UI6.style.backgroundColor="#20ff20";
+					 
+					 
+				//------------------------------------------------------------------------	 
+ }); 
+    var x;
+	x++;
+	
+ }
+ setInterval("status()",500);
 </script>
   </head>
   <body style="padding:8px">
@@ -231,7 +215,7 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
 <div id="back_below">  
   <div>
 <ul id="choice_buttons">
-  <li><a class="active" href="index.php">Home</a></li> 
+  <li><a class="active" href="home.php">Home</a></li> 
   <li><a href="current.html">Current Status</a></li>
   <li><a href="past.php">Past 14 Days</a></li>
   <li><a class="active" href="select.php">Schedule ON/OFF</a></li>
@@ -242,9 +226,8 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
  
   <div id="date_time_scheduler" style=" height:600px;width:100%;background: linear-gradient(to bottom right, #222, #666);">
   <div id="floating-block">
-     <div id="d_status" style="background-color:red"></div>
-   <div id="d_status" style="background-color:#20ff20"></div>
-  <div>
+     <div id="d_status1" style="background-color:red;"></div>
+   <div>
 <a id="buttonx"><span style="display:block;position:relative;margin:20px ;"><button class="button button1" style="width:300px;height:50px;margin:20pxpadding:10px;background-color:red;color:white"><span id="buttony" /></button></span></a>
 </div>
 <div >
@@ -278,8 +261,8 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
   </div>
   </div>
   <div id="floating-block"> 
-   <div id="d_status" style="background-color:red"></div>
-   <div id="d_status" style="background-color:#20ff20"></div>
+   <div id="d_status3" style="background-color:red"></div>
+   
   <div>
 <a id="buttonx_2"><span style="display:block;position:relative;margin:20px ;"><button class="button button1" style="width:300px;height:50px;margin:20pxpadding:10px;background-color:red;color:white"><span id="buttony_2" /></button></span></a>
 </div>
@@ -312,8 +295,8 @@ setInterval("getbutton1(),getbutton2(),getbutton3()",1000);
 </div>
 </div>
   <div id="floating-block"> 
-   <div id="d_status" style="background-color:red"></div>
-   <div id="d_status" style="background-color:#20ff20"></div>
+   <div id="d_status5" style="background-color:red"></div>
+  
   <div>
 <a id="buttonx_3"><span style="display:block;position:relative;margin:20px ;"><button class="button button1" style="width:300px;height:50px;margin:20pxpadding:10px;background-color:red;color:white"><span id="buttony_3" /></button></span></a>
 </div>

@@ -1,12 +1,9 @@
 <?php
 
  ob_start( );
- /*
-$m = intval($_GET['m']);
-$s = intval($_GET['s']);*/
-$choice = intval($_GET['x']);
+  
 $head = intval($_GET['c']);
-
+ 
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -20,31 +17,71 @@ $conn = new mysqli($servername, $username, $password,$dbname);
 					die("Connection failed: " . $conn->connect_error);
 				} 
 				
-				$selection=array();
-				 
-				  /*if($choice==1)
-					$selection = " WHERE (MINUTE(reg_date),SECOND(reg_date),HOUR(reg_date),DAY(reg_date),MONTH(reg_date))=($m,$s)";
-				  else if($choice==0)
-					$selection = "";
-				  else if($choice==2)
-					$selection = " WHERE (MINUTE(reg_date))=($m)";
-				*/
+				$sql = "SELECT Choice FROM power WHERE id=1";
+					if (mysqli_query($conn, $sql))
+						{
+						 //echo "Selection Successful";
+						}
+							$result = $conn->query($sql);
+	 
+									if ($result->num_rows > 0) 
+											{
+													// output data of each row
+															while($row = $result->fetch_assoc()) 
+																{
+																	if($head==0)
+																     	$choice=$row["Choice"];
+																	else 
+																		$choice = intval($_GET['x']);
+																}
+											}
+
+									else 
+											{
+												echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+											}
+										
+								
+
+				 if($head==1)
+				 {
+						$sql = "UPDATE power SET Choice = ".$choice;
+					if (mysqli_query($conn, $sql))
+						{
+						 //echo "update Successful";
+						}
+						
+					
+				 }
+				
+				
+				
+				
+					  /*if($choice==1)
+						$selection = " WHERE (MINUTE(reg_date),SECOND(reg_date),HOUR(reg_date),DAY(reg_date),MONTH(reg_date))=($m,$s)";
+							else if($choice==0)
+						$selection = "";
+							else if($choice==2)
+						$selection = " WHERE (MINUTE(reg_date))=($m)";
+				      */
+				
 				
 				switch ($choice) 
 							{
-								case 1: $selection="DATE(reg_date) = CURDATE()"; //FOR TODAY
+								case 1: $selection=" WHERE DATE(reg_date) = CURDATE()";//FOR TODAY
 										break;
 								case 2:
 										break;
-								case 3: $selection="DATE(reg_date) = DATE_ADD(CURDATE(),INTERVAL -1 DAY)";
+								case 3: $selection=" WHERE DATE(reg_date) = DATE_ADD(CURDATE(),INTERVAL -1 DAY)";
 										break;
-								case 4:	$selection="reg_date LIKE '%:00:00' AND (DATE(reg_date) > DATE_ADD(CURDATE(),INTERVAL -7 DAY))";
+								case 4:	$selection=" WHERE reg_date LIKE '%:00:00' AND (DATE(reg_date) > DATE_ADD(CURDATE(),INTERVAL -7 DAY))";
 										break;
-								case 5: $selection=" reg_date LIKE '%:00:00'";
-								        break;							
+								case 5:  $selection="WHERE reg_date LIKE '%:00:00'";
+           								 break;							
 						    }
 				
-					$sql = "SELECT Current1, Voltage, frequency,phase,reg_date FROM reading WHERE ".$selection ;
+					
+					$sql = "SELECT Current1,Current2,Current3, Voltage, frequency,Phase1,Phase2,Phase3,reg_date FROM reading ".$selection ;
 					
 					$result = $conn->query($sql);
 	
@@ -68,18 +105,26 @@ if ($result->num_rows > 0)
 	{
 		  $jsonItem=array();
 							$jsonItem['Current']=$row['Current1'];
+							$jsonItem['Current2']=$row['Current2'];
+							$jsonItem['Current3']=$row['Current3'];
 							$jsonItem['Voltage']=$row['Voltage'];
 							$jsonItem['Frequency']=$row['frequency'];
-							$jsonItem['Phase']=$row['phase'];
+							$jsonItem['Phase1']=$row['Phase1'];
+							$jsonItem['Phase2']=$row['Phase2'];
+							$jsonItem['Phase3']=$row['Phase3'];
 							$jsonItem['Time']=$row['reg_date'];
 							array_push($jsonarray,$jsonItem);	
-							$Current=$row['Current1'];
+							$Current1=$row['Current1'];
+							$Current2=$row['Current2'];
+							$Current3=$row['Current3'];
 							$Voltage=$row['Voltage'];
 							$Frequency=$row['frequency'];
-							$Phase=$row['phase'];
+							$Phase1=$row['Phase1'];
+							$Phase2=$row['Phase2'];
+							$Phase3=$row['Phase3'];
 							$Time =$row['reg_date'];
 							
-							$list=array("$Current,$Voltage,$Frequency,$Phase,$Time");
+							$list=array("$Current1,$Current2,$Current3,$Voltage,$Frequency,$Phase1,$Phase2,$Phase3,$Time");
 							foreach ($list as $line)
 									{
 										fputcsv($file,explode(',',$line));

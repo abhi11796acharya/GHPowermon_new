@@ -86,7 +86,7 @@ li a:active
 </h1>
 <div>
 <ul>
-  <li><a class="active" href="index.php">Home</a></li> 
+  <li><a class="active" href="home.php">Home</a></li> 
   <li><a href="current.html">Current Status</a></li>
   <li><a href="past.php">Past 14 Days</a></li>
   <li><a class="active" href="select.php">Schedule ON/OFF</a></li>
