@@ -80,7 +80,7 @@ else {
  $sql =  "INSERT INTO reading (Current1,Current2,Current3,Voltage,frequency,Phase1,Phase2,Phase3,reg_date) VALUES ($cur,$cur2,$cur3,$vol,$fre,$pha,$pha2,$pha3,NOW())";
  
  if (mysqli_query($conn, $sql)) {
-   // echo "  New record2 created successfully    ";
+  //echo "  New record2 created successfully    ";
 } else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
@@ -114,7 +114,7 @@ else {
 $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=1";
  
    if (mysqli_query($conn, $sql)) {
-   echo "  New record3  created successfully    ";
+   //echo "  New record3  created successfully    ";
 } else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
@@ -175,7 +175,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=1";
 $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=2";
  
    if (mysqli_query($conn, $sql)) {
-   echo "  New record3  created successfully    ";
+  // echo "  New record3  created successfully    ";
 } else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
@@ -189,11 +189,11 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=2";
 						{
 						  if($row["Button_change"]==0)
 						  {
-							   echo "Success Here"; 
+							   //echo "Success Here"; 
 						   if($s_date <= $row["Switch_on"] && $s_date <= $row["Switch_off"] )
 						   {   
 								//echo $old_stat;
-					          echo "Lower than both";
+					         // echo "Lower than both";
 							   if($old_stat_2==1)     
 							      $b_stat_2 = "1";
 							   else
@@ -236,7 +236,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=2";
 $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
  
    if (mysqli_query($conn, $sql)) {
-   echo "  New record3  created successfully    ";
+   //echo "  New record3  created successfully    ";
 } else {
    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
@@ -253,7 +253,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
 						   if($s_date <= $row["Switch_on"] && $s_date <= $row["Switch_off"] )
 						   {   
 								//echo $old_stat;
-					          echo "Lower than both";
+					          //echo "Lower than both";
 							   if($old_stat_3==1)     
 							      $b_stat_3 = "1";
 							   else
@@ -262,17 +262,17 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
 						   }
 						   else if($s_date >= $row["Switch_on"] && $s_date <= $row["Switch_off"] )
 						   {
-							   echo "greater than ON, lesser than OFF, FOLLOW ON";
+							  // echo "greater than ON, lesser than OFF, FOLLOW ON";
 							   $b_stat_3="1";
 						   }
 						    else if($s_date >= $row["Switch_off"] && $s_date <= $row["Switch_on"] )
 						   {
-							   echo "greater than OFF, lesser than ON, FOLLOW OFF";
+							  // echo "greater than OFF, lesser than ON, FOLLOW OFF";
 							   $b_stat_3="0";
 						   }
 						    else if($s_date >= $row["Switch_on"] && $s_date >= $row["Switch_off"] )
 						   {
-							   echo "greater than Both";
+							  // echo "greater than Both";
 							   if($row["Switch_on"] >= $row["Switch_off"])
 								$b_stat_3="1";
 							   else
@@ -305,7 +305,7 @@ $sql = "SELECT Switch_on,Switch_off,Button_change FROM scheduled WHERE id=3";
 		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
       }
 */
- $sql =  "UPDATE power SET button = $b_stat, button_2 = $b_stat_2, button_3 = $b_stat_3, d_status1 = $dstat1, d_status2 = $dstat2, d_status3 = $dstat3  ";
+ $sql =  "UPDATE power SET button = $b_stat, button_2 = $b_stat_2, button_3 = $b_stat_3, d_status1 = $dstat1, d_status2 = $dstat2, d_status3 = $dstat3";
  
   if (mysqli_query($conn, $sql)) 
   {

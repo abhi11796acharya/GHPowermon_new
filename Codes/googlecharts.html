@@ -1,6 +1,6 @@
 <html>
   <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="JS/loader.js"></script>
 	<script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -19,9 +19,9 @@
 	  //alert(JSON.stringify(json));
 		    dataTable = new google.visualization.DataTable();
 			dataTable.addColumn('datetime',   'time');
-			 dataTable.addColumn('number', 'current');
+			 dataTable.addColumn('number', 'value');
 			 oldTime=json[0].time;
-			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].value)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
 		options = {
           title: 'Sensor',

@@ -4,6 +4,7 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+
 <style>	 
 h1
 { 
@@ -122,7 +123,7 @@ li a:active
  function status()
  {
 	 $.getJSON('button_refresh.php', function(json)
- {
+  {
 	  
 	  //------------------------------------------------------------
 	  var UI=document.getElementById("buttony");
@@ -198,7 +199,62 @@ li a:active
 					 UI6.style.backgroundColor="#20ff20";
 					 
 					 
-				//------------------------------------------------------------------------	 
+				//------------------------------------------------------------------------	
+					var UI6= document.getElementById("schedule_box_1");
+					var s_stat;
+					var fromtime;
+					var totime;
+					switch(parseInt(json[0].offon1))
+					{
+						case 1:s_stat="ON";fromtime= json[0].Switch_on1;totime=json[0].Switch_off1;break;
+						case 0:s_stat="OFF";fromtime=json[0].Switch_off1;totime=json[0].Switch_on1;break;
+						case -1:s_stat="Blink";fromtime=json[0].Switch_off1;totime=json[0].Switch_on1; break;
+						
+					}
+					
+				 console.log((json[0].offon1));
+					   if ((parseInt(json[0].Button_change1)==0)&&(parseInt(json[0].offon1)!=-2))
+					  UI6.innerHTML="SCHEDULED "+ s_stat + "<div> Starts From:" + fromtime+ "<br>Stops at:"+ totime +"<div>";
+				      else 
+					 UI6.innerHTML="<br><br>NOT SCHEDULED YET!!";
+					 
+					 
+				//------------------------------------------------------------------------	
+					var UI6= document.getElementById("schedule_box_2");
+					   switch(parseInt(json[0].offon2))
+					{
+						case 1:s_stat="ON";fromtime= json[0].Switch_on2;totime=json[0].Switch_off2;break;
+						case 0:s_stat="OFF";fromtime=json[0].Switch_off2;totime=json[0].Switch_on2;break;
+						case -1:s_stat="Blink";fromtime=json[0].Switch_off2;totime=json[0].Switch_on2; break;
+						
+					}
+					
+				 console.log((json[0].offon2));
+					   if ((parseInt(json[0].Button_change2)==0)&&(parseInt(json[0].offon2)!=-2))
+					
+					 UI6.innerHTML="SCHEDULED "+ s_stat + "<div> Starts From:" + fromtime+ "<br>Stops at:"+ totime +"<div>";
+				       else 
+					 UI6.innerHTML="<br><br>NOT SCHEDULED YET!!";
+					 
+				//------------------------------------------------------------------------	
+					var UI6= document.getElementById("schedule_box_3");
+					switch(parseInt(json[0].offon3))
+					{
+						case 1:s_stat="ON";fromtime= json[0].Switch_on3;totime=json[0].Switch_off3;break;
+						case 0:s_stat="OFF";fromtime=json[0].Switch_off3;totime=json[0].Switch_on3;break;
+						case -1:s_stat="Blink";fromtime=json[0].Switch_off3;totime=json[0].Switch_on3; break;
+						
+					}
+					
+				 console.log((json[0].offon3));
+					   if ((parseInt(json[0].Button_change3)==0)&&(parseInt(json[0].offon3)!=-2))
+					  UI6.innerHTML="SCHEDULED "+ s_stat + "<div> Starts From:" + fromtime+ "<br>Stops at:"+ totime +"<div>";
+				      else 
+					 UI6.innerHTML="<br><br>NOT SCHEDULED YET!!";
+					 
+					 
+				//------------------------------------------------------------------------	*/
+					
  }); 
     var x;
 	x++;
@@ -258,6 +314,10 @@ li a:active
   
   <br><button type="submit" class="btn btn-default" value="submit" > Schedule </button>
 </form>
+<div id="schedule_box_1" style="color:white;position:relative"> 
+</div>
+
+ 
   </div>
   </div>
   <div id="floating-block"> 
@@ -292,6 +352,12 @@ li a:active
   
   <br><button type="submit" class="btn btn-default" value="submit" > Schedule </button>
 </form>
+<div id="schedule_box_2" style="color:white"> 
+ SCHEDULED 
+  <div> Starts From:<br>Stops at:
+  </div>
+</div>
+
 </div>
 </div>
   <div id="floating-block"> 
@@ -310,7 +376,6 @@ li a:active
   <div id="datetimepicker" class="input-append date">
  <label style="color:white;vertical-align: middle;">FROM </label>
       <input type="datetime" placeholder="Select Date and Time" name="From"></input> 
-    
       <span class="add-on">
         <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
       </span>
@@ -325,6 +390,12 @@ li a:active
     </div>  
   <br><button type="submit" class="btn btn-default" value="submit" > Schedule </button>
 </form>
+<div id="schedule_box_3" style="color:white"> 
+ SCHEDULED 
+  <div> Starts From:<br>Stops at:
+  </div>
+</div>
+
 </div>
 </div>	
     <script type="text/javascript"
