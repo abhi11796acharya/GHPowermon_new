@@ -1,12 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.19)  23 JUL 2016 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.19)  23 JUL 2016 16:10
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\boo
+k.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk1
+2.clo"
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,19 +26,24 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\
+babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
+\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-en
+glish\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\
+babel.def"
 File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -43,19 +52,22 @@ File: babel.def 2016/01/08 3.9n Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inp
+utenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf
+8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1e
+nc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -215,7 +227,8 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1
+enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -256,7 +269,8 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\oms
+enc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -280,10 +294,12 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtex
+t\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xs
+pace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count89
@@ -305,14 +321,17 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count105
 \c@blind@pangrammax=\count106
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
+\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -353,31 +372,37 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
+\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxete
+x\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
+\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
+\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count107
 \Hy@pagecounter=\count108
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
+\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count109
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
+\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -389,7 +414,8 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count110
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.
+sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -414,12 +440,15 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
+\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count115
 \c@bookmark@seq@number=\count116
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
+\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -428,7 +457,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr
+\fancyhdr.sty"
 \fancy@headwidth=\skip44
 \f@ncyO@elh=\skip45
 \f@ncyO@erh=\skip46
@@ -439,7 +469,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 \f@ncyO@olf=\skip51
 \f@ncyO@orf=\skip52
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\fl
+oat.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count117
 \float@exts=\toks17
@@ -447,13 +478,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\s
+ubfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\
+caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\
+caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen108
@@ -490,7 +524,9 @@ less on input line 26.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 27.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec
+\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip58
@@ -502,59 +538,77 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen119
 \titlewidthfirst=\dimen120
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcolorbox.sty"
 Package: tcolorbox 2016/07/14 version 3.94 text color boxes
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basi
+clayer\pgf.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
+ities\pgfrcs.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen121
 \pgfutil@tempdimb=\dimen122
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfutil-common-lists.tex"))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfutil-latex.def"
 \pgfutil@abb=\box29
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\every
+shi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basi
+clayer\pgfcore.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
+\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
+\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
+\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
+\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-d
+ef\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count126
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\syst
+emlayer\pgfsys.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen125
@@ -574,31 +628,37 @@ x"
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count131
 \pgfsyssoftpath@bigbuffer@items=\count132
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
+stemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\x
+color.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
+\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -612,13 +672,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmath.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathcalc.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathutil.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen133
 \pgfmath@count=\count133
 \pgfmath@box=\box30
@@ -626,28 +691,30 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.basic.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.trigonometric.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.random.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.comparison.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.base.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.round.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.misc.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count134
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen134
 \pgf@picmaxx=\dimen135
@@ -664,109 +731,120 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen146
 \pgf@zy=\dimen147
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen148
 \pgf@path@lasty=\dimen149
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen150
 \pgf@shorten@start@additional=\dimen151
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count135
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen152
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen153
 \pgf@pt@y=\dimen154
 \pgf@pt@temp=\dimen155
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen156
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen157
 \pgf@sys@shading@range@num=\count136
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box34
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
+siclayer\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
+dules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box35
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
+dules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
+atibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen158
 \pgf@nodesepend=\dimen159
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
+atibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ve
+rbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks30
 \verbatim@line=\toks31
 \verbatim@in@stream=\read2
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\
+environ.sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspac
+es\trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks32
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox
+\etoolbox.sty"
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count137
 )
@@ -784,33 +862,46 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \tcb@out=\write4
 \tcb@record@out=\write5
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbraster.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbraster.code.tex"
 Library (tcolorbox): 'tcbraster.code.tex' version '3.94'
 \c@tcbrastercolumn=\count141
 \c@tcbrasterrow=\count142
 \c@tcbraster=\count143
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbskins.code.tex"
 Library (tcolorbox): 'tcbskins.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\fron
+tendlayer\tikz.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
+ities\pgffor.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
+ities\pgfkeys.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgfkeys.code.tex"))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math
+\pgfmath.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmath.code.tex"))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
+ilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
+th\pgfmath.code.tex")
 \pgffor@iter=\dimen160
 \pgffor@skip=\dimen161
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
+ontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
+braries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count144
 \pgfplotmarksize=\dimen162
@@ -830,7 +921,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count147
 \tikz@fig@count=\count148
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
+dules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count149
 \pgfmatrixcurrentcolumn=\count150
@@ -838,41 +930,55 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count152
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 \tcb@waterbox=\box48
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskinsjigsaw.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbskinsjigsaw.code.tex"
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.94'
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbbreakable.code.tex"
+))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbbreakable.code.tex"
 Library (tcolorbox): 'tcbbreakable.code.tex' version '3.94'
 \tcb@testbox=\box49
 \tcb@totalupperbox=\box50
 \tcb@totallowerbox=\box51
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbhooks.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbhooks.code.tex"
 Library (tcolorbox): 'tcbhooks.code.tex' version '3.94'
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbtheorems.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbtheorems.code.tex"
 Library (tcolorbox): 'tcbtheorems.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
+amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
+amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
+amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks35
 \ex@=\dimen169
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
+amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen170
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
+amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count153
@@ -913,19 +1019,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbfitting.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbfitting.code.tex"
 Library (tcolorbox): 'tcbfitting.code.tex' version '3.94'
 \tcbfitdim=\dimen178
 \tcb@lowerfitdim=\dimen179
 \tcb@upperfitdim=\dimen180
 \tcb@cur@hbadness=\count165
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbxparse.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbxparse.code.tex"
 Library (tcolorbox): 'tcbxparse.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packag
+es\xparse\xparse.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
+\expl3.sty"
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
+\expl3-code.tex"
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
@@ -1032,7 +1145,8 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen267
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
+\l3pdfmode.def"
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count188
 \l__driver_tmp_box=\box69
@@ -1055,12 +1169,16 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingsutf8.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcblistingsutf8.code.tex"
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\listingsutf8.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
+\listingsutf8.sty"
 Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
+\listings.sty"
 \lst@mode=\count194
 \lst@gtempboxa=\box70
 \lst@token=\toks40
@@ -1074,75 +1192,99 @@ Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
 \lst@lineno=\count199
 \lst@maxwidth=\dimen271
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
+\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count266
 \lst@skipnumbers=\count267
 \lst@framebox=\box71
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
+\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\stringenc.sty"
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistings.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcblistings.code.tex"
 Library (tcolorbox): 'tcblistings.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingscore.code.tex"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcblistingscore.code.tex"
 Library (tcolorbox): 'tcblistingscore.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbprocessing.code.tex"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbprocessing.code.tex"
 Library (tcolorbox): 'tcbprocessing.code.tex' version '3.94'
-("C:\Program Files\MiKTeX 2.9\tex\latex\shellesc\shellesc.sty"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\sh
+ellesc.sty"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 ))
 \c@tcblisting=\count268
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbexternal.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbexternal.code.tex"
 Library (tcolorbox): 'tcbexternal.code.tex' version '3.94'
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbmagazine.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbmagazine.code.tex"
 Library (tcolorbox): 'tcbmagazine.code.tex' version '3.94'
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbvignette.code.tex"
+)
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
+x\tcbvignette.code.tex"
 Library (tcolorbox): 'tcbvignette.code.tex' version '3.94'
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryfadings.code.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibraryfadings.code.tex"
 File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
-tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
+braries\pgflibraryfadings.code.tex"
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-)))) ("C:\Program Files\MiKTeX 2.9\tex\latex\marginnote\marginnote.sty"
+))))
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\marginno
+te\marginnote.sty"
 Package: marginnote 2016/06/02 v1.2 non floating margin notes for LaTeX
 \c@mn@abspage=\count269
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\background\background.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\backgrou
+nd\background.sty"
 Package: background 2014/03/04 v2.1 background material
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\
+xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyva
+l\xkeyval.tex"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyva
+l\xkvutils.tex"
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
 \XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\everypage\everypage.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\everypag
+e\everypage.sty"
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\af
+terpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks43
 \AP@partial=\box72
 \AP@footins=\box73
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\sou
+l.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks44
 \SOUL@lasttoken=\toks45
@@ -1173,10 +1315,12 @@ LaTeX Font Info:    ... okay on input line 75.
 \AtBeginShipoutBox=\box74
 Package hyperref Info: Link coloring ON on input line 75.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
+\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count271
@@ -1184,8 +1328,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
-
-(report_eYSIP.out) (report_eYSIP.out)
+ (report_eYSIP.out) (report_eYSIP.out)
 \@outlinefile=\write6
 \openout6 = `report_eYSIP.out'.
 
@@ -1193,8 +1336,10 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+ABD: EveryShipout initializing macros
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\s
+upp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count272
 \scratchdimen=\dimen275
@@ -1220,8 +1365,8 @@ Package pdftex.def Info: logo.png used on input line 128.
  [1
 
 
-{C:/Users/BABU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png>]
-
+{C:/Users/AVILASH MOHANTY/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
+/logo.png>]
 (report_eYSIP.toc
 Overfull \hbox (12.63686pt too wide) in paragraph at lines 2--2
   [][][]\OT1/cmr/bx/n/12 GREENHOUSE POWER MON-I-TOR-ING AND AP-PLI-ANCE 
@@ -1269,7 +1414,9 @@ Package pdftex.def Info: logo.png used on input line 139.
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\oms
+cmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1354,13 +1501,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 242.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [6 <./inst1.jpg> <./inst2.jpg>]
-<inst3.jpg, id=202, 550.30594pt x 359.84438pt>
+<inst3.jpg, id=201, 550.30594pt x 359.84438pt>
 File: inst3.jpg Graphic file (type jpg)
  <use inst3.jpg>
 Package pdftex.def Info: inst3.jpg used on input line 246.
 (pdftex.def)             Requested size: 301.1261pt x 196.9102pt.
 
-<inst4.jpg, id=203, 465.23813pt x 404.26031pt>
+<inst4.jpg, id=202, 465.23813pt x 404.26031pt>
 File: inst4.jpg Graphic file (type jpg)
  <use inst4.jpg>
 Package pdftex.def Info: inst4.jpg used on input line 251.
@@ -1375,13 +1522,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 253.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [7 <./inst3.jpg> <./inst4.jpg>]
-<inst5.jpg, id=212, 730.98094pt x 439.6425pt>
+<inst5.jpg, id=211, 730.98094pt x 439.6425pt>
 File: inst5.jpg Graphic file (type jpg)
  <use inst5.jpg>
 Package pdftex.def Info: inst5.jpg used on input line 261.
 (pdftex.def)             Requested size: 301.1261pt x 181.10655pt.
 
-<inst6.jpg, id=213, 609.77812pt x 334.24875pt>
+<inst6.jpg, id=212, 609.77812pt x 334.24875pt>
 File: inst6.jpg Graphic file (type jpg)
  <use inst6.jpg>
 Package pdftex.def Info: inst6.jpg used on input line 267.
@@ -1396,13 +1543,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 269.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [8 <./inst5.jpg> <./inst6.jpg>]
-<inst7.jpg, id=221, 614.295pt x 356.0803pt>
+<inst7.jpg, id=220, 614.295pt x 356.0803pt>
 File: inst7.jpg Graphic file (type jpg)
  <use inst7.jpg>
 Package pdftex.def Info: inst7.jpg used on input line 273.
 (pdftex.def)             Requested size: 301.1261pt x 174.55151pt.
 
-<inst8.jpg, id=222, 606.76688pt x 472.76625pt>
+<inst8.jpg, id=221, 606.76688pt x 472.76625pt>
 File: inst8.jpg Graphic file (type jpg)
  <use inst8.jpg>
 Package pdftex.def Info: inst8.jpg used on input line 278.
@@ -1417,13 +1564,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 281.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [9 <./inst7.jpg> <./inst8.jpg>]
-<inst9.jpg, id=231, 490.83376pt x 277.78781pt>
+<inst9.jpg, id=230, 490.83376pt x 277.78781pt>
 File: inst9.jpg Graphic file (type jpg)
  <use inst9.jpg>
 Package pdftex.def Info: inst9.jpg used on input line 289.
 (pdftex.def)             Requested size: 301.1261pt x 170.42944pt.
 
-<inst10.jpg, id=232, 541.27219pt x 356.83313pt>
+<inst10.jpg, id=231, 541.27219pt x 356.83313pt>
 File: inst10.jpg Graphic file (type jpg)
  <use inst10.jpg>
 Package pdftex.def Info: inst10.jpg used on input line 294.
@@ -1438,13 +1585,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 296.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [10 <./inst9.jpg> <./inst10.jpg>]
-<inst11.jpg, id=242, 779.16093pt x 481.8pt>
+<inst11.jpg, id=240, 779.16093pt x 481.8pt>
 File: inst11.jpg Graphic file (type jpg)
  <use inst11.jpg>
 Package pdftex.def Info: inst11.jpg used on input line 300.
 (pdftex.def)             Requested size: 301.1261pt x 186.203pt.
 
-<inst12.jpg, id=243, 770.12718pt x 472.01344pt>
+<inst12.jpg, id=241, 770.12718pt x 472.01344pt>
 File: inst12.jpg Graphic file (type jpg)
  <use inst12.jpg>
 Package pdftex.def Info: inst12.jpg used on input line 304.
@@ -1459,7 +1606,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 306.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [11 <./inst11.jpg> <./inst12.jpg>]
-<inst13.jpg, id=251, 761.09344pt x 423.83344pt>
+<inst13.jpg, id=249, 761.09344pt x 423.83344pt>
 File: inst13.jpg Graphic file (type jpg)
  <use inst13.jpg>
 Package pdftex.def Info: inst13.jpg used on input line 310.
@@ -1474,13 +1621,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 313.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [12 <./inst13.jpg>]
-<inst14.jpg, id=260, 536.0025pt x 336.50719pt>
+<inst14.jpg, id=258, 536.0025pt x 336.50719pt>
 File: inst14.jpg Graphic file (type jpg)
  <use inst14.jpg>
 Package pdftex.def Info: inst14.jpg used on input line 321.
 (pdftex.def)             Requested size: 301.1261pt x 189.04861pt.
 
-<inst15.jpg, id=261, 393.72093pt x 307.1475pt>
+<inst15.jpg, id=259, 393.72093pt x 307.1475pt>
 File: inst15.jpg Graphic file (type jpg)
  <use inst15.jpg>
 Package pdftex.def Info: inst15.jpg used on input line 325.
@@ -1513,13 +1660,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 344.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [14]
-<inst16.jpg, id=281, 529.22719pt x 455.45157pt>
+<inst16.jpg, id=279, 529.22719pt x 455.45157pt>
 File: inst16.jpg Graphic file (type jpg)
  <use inst16.jpg>
 Package pdftex.def Info: inst16.jpg used on input line 350.
 (pdftex.def)             Requested size: 271.01349pt x 233.23627pt.
 
-<inst17.jpg, id=282, 532.99126pt x 370.38374pt>
+<inst17.jpg, id=280, 532.99126pt x 370.38374pt>
 File: inst17.jpg Graphic file (type jpg)
  <use inst17.jpg>
 Package pdftex.def Info: inst17.jpg used on input line 354.
@@ -1534,19 +1681,19 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 356.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [15 <./inst16.jpg> <./inst17.jpg>]
-<xampp1.png, id=293, 469.00218pt x 392.21532pt>
+<xampp1.png, id=291, 469.00218pt x 392.21532pt>
 File: xampp1.png Graphic file (type png)
  <use xampp1.png>
 Package pdftex.def Info: xampp1.png used on input line 371.
 (pdftex.def)             Requested size: 369.88582pt x 309.32603pt.
 
-<xampp12.png, id=294, 466.74374pt x 389.95688pt>
+<xampp12.png, id=292, 466.74374pt x 389.95688pt>
 File: xampp12.png Graphic file (type png)
  <use xampp12.png>
 Package pdftex.def Info: xampp12.png used on input line 375.
 (pdftex.def)             Requested size: 369.88582pt x 309.04434pt.
 
-<xampp3.png, id=295, 532.99126pt x 347.04657pt>
+<xampp3.png, id=293, 532.99126pt x 347.04657pt>
 File: xampp3.png Graphic file (type png)
  <use xampp3.png>
 Package pdftex.def Info: xampp3.png used on input line 379.
@@ -1571,7 +1718,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 382.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [17 <./xampp12.png>]
-<httpconf2.png, id=318, 502.87875pt x 326.72063pt>
+<httpconf2.png, id=316, 502.87875pt x 326.72063pt>
 File: httpconf2.png Graphic file (type png)
  <use httpconf2.png>
 Package pdftex.def Info: httpconf2.png used on input line 387.
@@ -1586,7 +1733,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 390.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [18 <./xampp3.png>]
-<override.png, id=327, 1028.34187pt x 548.0475pt>
+<override.png, id=325, 1028.34187pt x 548.0475pt>
 File: override.png Graphic file (type png)
  <use override.png>
 Package pdftex.def Info: override.png used on input line 393.
@@ -1611,7 +1758,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 411.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [20]
-<schematic.jpg, id=348, 849.574pt x 413.545pt>
+<schematic.jpg, id=346, 849.574pt x 413.545pt>
 File: schematic.jpg Graphic file (type jpg)
  <use schematic.jpg>
 Package pdftex.def Info: schematic.jpg used on input line 416.
@@ -1626,13 +1773,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 418.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [21 <./schematic.jpg>]
-<plug1.jpg, id=355, 4223.78pt x 3131.7pt>
+<plug1.jpg, id=353, 4223.78pt x 3131.7pt>
 File: plug1.jpg Graphic file (type jpg)
  <use plug1.jpg>
 Package pdftex.def Info: plug1.jpg used on input line 423.
 (pdftex.def)             Requested size: 301.1261pt x 223.2554pt.
 
-<plug2.jpg, id=356, 4223.78pt x 3131.7pt>
+<plug2.jpg, id=354, 4223.78pt x 3131.7pt>
 File: plug2.jpg Graphic file (type jpg)
  <use plug2.jpg>
 Package pdftex.def Info: plug2.jpg used on input line 424.
@@ -1651,7 +1798,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 426.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [22 <./plug1.jpg> <./plug2.jpg>]
-<assem1.jpg, id=363, 4223.78pt x 3131.7pt>
+<assem1.jpg, id=361, 4223.78pt x 3131.7pt>
 File: assem1.jpg Graphic file (type jpg)
  <use assem1.jpg>
 Package pdftex.def Info: assem1.jpg used on input line 430.
@@ -1661,7 +1808,7 @@ Overfull \hbox (11.45662pt too wide) in paragraph at lines 430--431
 [][] 
  []
 
-<assem2.jpg, id=364, 4223.78pt x 3131.7pt>
+<assem2.jpg, id=362, 4223.78pt x 3131.7pt>
 File: assem2.jpg Graphic file (type jpg)
  <use assem2.jpg>
 Package pdftex.def Info: assem2.jpg used on input line 435.
@@ -1680,13 +1827,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 437.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [23 <./assem1.jpg> <./assem2.jpg>]
-<assem3.jpg, id=373, 3131.7pt x 4223.78pt>
+<assem3.jpg, id=371, 3131.7pt x 4223.78pt>
 File: assem3.jpg Graphic file (type jpg)
  <use assem3.jpg>
 Package pdftex.def Info: assem3.jpg used on input line 441.
 (pdftex.def)             Requested size: 301.09853pt x 200.69608pt.
 
-<assem4.jpg, id=375, 4223.78pt x 3131.7pt>
+<assem4.jpg, id=373, 4223.78pt x 3131.7pt>
 File: assem4.jpg Graphic file (type jpg)
  <use assem4.jpg>
 Package pdftex.def Info: assem4.jpg used on input line 446.
@@ -1710,7 +1857,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png used on input line 464.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [25] <assem5.jpg, id=390, 4223.78pt x 3131.7pt>
+ [25] <assem5.jpg, id=387, 4223.78pt x 3131.7pt>
 File: assem5.jpg Graphic file (type jpg)
 
 <use assem5.jpg>
@@ -1729,7 +1876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
-<coolterm1.jpg, id=399, 528.47438pt x 452.4403pt>
+<coolterm1.jpg, id=396, 528.47438pt x 452.4403pt>
 File: coolterm1.jpg Graphic file (type jpg)
  <use coolterm1.jpg>
 Package pdftex.def Info: coolterm1.jpg used on input line 485.
@@ -1748,7 +1895,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 493.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [27 <./coolterm1.jpg>]
-<reading.png, id=406, 721.94719pt x 420.82219pt>
+<reading.png, id=403, 721.94719pt x 420.82219pt>
 File: reading.png Graphic file (type png)
  <use reading.png>
 Package pdftex.def Info: reading.png used on input line 502.
@@ -1778,7 +1925,7 @@ Overfull \hbox (3.29262pt too wide) in paragraph at lines 507--508
  keeps the lat-est value un-der columns
  []
 
-<para.png, id=407, 439.6425pt x 283.81032pt>
+<para.png, id=404, 439.6425pt x 283.81032pt>
 File: para.png Graphic file (type png)
  <use para.png>
 Package pdftex.def Info: para.png used on input line 511.
@@ -1807,7 +1954,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 517.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [29 <./para.png>]
-<freq1.png, id=421, 1002.74625pt x 439.6425pt>
+<freq1.png, id=419, 1002.74625pt x 439.6425pt>
 File: freq1.png Graphic file (type png)
  <use freq1.png>
 Package pdftex.def Info: freq1.png used on input line 527.
@@ -1817,7 +1964,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 527--528
  [][] 
  []
 
-<freq_mov.png, id=422, 1012.5328pt x 450.9347pt>
+<freq_mov.png, id=420, 1012.5328pt x 450.9347pt>
 File: freq_mov.png Graphic file (type png)
  <use freq_mov.png>
 Package pdftex.def Info: freq_mov.png used on input line 534.
@@ -1836,7 +1983,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 538.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [30 <./freq1.png>]
-<phase_today.png, id=431, 1009.52156pt x 488.57532pt>
+<phase_today.png, id=429, 1009.52156pt x 488.57532pt>
 File: phase_today.png Graphic file (type png)
  <use phase_today.png>
 Package pdftex.def Info: phase_today.png used on input line 544.
@@ -1846,7 +1993,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 544--545
  [][] 
  []
 
-<frequency_today.png, id=432, 1008.76875pt x 463.7325pt>
+<frequency_today.png, id=430, 1008.76875pt x 463.7325pt>
 File: frequency_today.png Graphic file (type png)
 
 <use frequency_today.png>
@@ -1857,7 +2004,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 551--552
  [][] 
  []
 
-<voltage_today.png, id=433, 1028.34187pt x 447.92343pt>
+<voltage_today.png, id=431, 1028.34187pt x 447.92343pt>
 File: voltage_today.png Graphic file (type png)
 
 <use voltage_today.png>
@@ -1868,7 +2015,7 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 559--560
  [][] 
  []
 
-<current_today.png, id=434, 1014.03844pt x 482.55281pt>
+<current_today.png, id=432, 1014.03844pt x 482.55281pt>
 File: current_today.png Graphic file (type png)
 
 <use current_today.png>
@@ -1898,7 +2045,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 571.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [32 <./phase_today.png> <./frequency_today.png>]
-<selection_buttons.png, id=453, 1028.34187pt x 219.82124pt>
+<selection_buttons.png, id=451, 1028.34187pt x 219.82124pt>
 File: selection_buttons.png Graphic file (type png)
 
 <use selection_buttons.png>
@@ -1909,7 +2056,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 578--579
  [][] 
  []
 
-<selectively_graph.png, id=454, 1005.00468pt x 444.15938pt>
+<selectively_graph.png, id=452, 1005.00468pt x 444.15938pt>
 File: selectively_graph.png Graphic file (type png)
 
 <use selectively_graph.png>
@@ -1928,7 +2075,7 @@ File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 594.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [33 <./current_today.png> <./selection_buttons.png>] <feedback.png, id=464, 94
+ [33 <./current_today.png> <./selection_buttons.png>] <feedback.png, id=462, 94
 4.7797pt x 167.12437pt>
 File: feedback.png Graphic file (type png)
  <use feedback.png>
@@ -1948,7 +2095,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 612.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [34 <./selectively_graph.png> <./feedback.png>]
-<scheduler.png, id=474, 1025.33063pt x 463.7325pt>
+<scheduler.png, id=472, 1025.33063pt x 463.7325pt>
 File: scheduler.png Graphic file (type png)
  <use scheduler.png>
 Package pdftex.def Info: scheduler.png used on input line 619.
@@ -1958,7 +2105,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 619--620
  [][] 
  []
 
-<scheduled.png, id=475, 567.62062pt x 222.07968pt>
+<scheduled.png, id=473, 567.62062pt x 222.07968pt>
 File: scheduled.png Graphic file (type png)
  <use scheduled.png>
 Package pdftex.def Info: scheduled.png used on input line 627.
@@ -1977,7 +2124,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 631.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [35 <./scheduler.png>]
-<scheduled_table.png, id=483, 1004.25188pt x 389.20406pt>
+<scheduled_table.png, id=481, 1004.25188pt x 389.20406pt>
 File: scheduled_table.png Graphic file (type png)
 
 <use scheduled_table.png>
@@ -1994,7 +2141,7 @@ Overfull \hbox (12.57797pt too wide) in paragraph at lines 638--639
 /m/n/12 is 0, with up-dated val-ues of $\OML/cmm/m/it/12 Switch[]on$
  []
 
-<power.png, id=484, 728.7225pt x 102.3825pt>
+<power.png, id=482, 728.7225pt x 102.3825pt>
 File: power.png Graphic file (type png)
  <use power.png>
 Package pdftex.def Info: power.png used on input line 646.
@@ -2024,25 +2171,25 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 655.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [37 <./power.png>]
-<coolterm2.jpg, id=502, 530.73282pt x 330.48468pt>
+<coolterm2.jpg, id=500, 530.73282pt x 330.48468pt>
 File: coolterm2.jpg Graphic file (type jpg)
  <use coolterm2.jpg>
 Package pdftex.def Info: coolterm2.jpg used on input line 661.
 (pdftex.def)             Requested size: 369.88582pt x 230.32913pt.
 
-<coolterm3.jpg, id=503, 523.9575pt x 346.29375pt>
+<coolterm3.jpg, id=501, 523.9575pt x 346.29375pt>
 File: coolterm3.jpg Graphic file (type jpg)
  <use coolterm3.jpg>
 Package pdftex.def Info: coolterm3.jpg used on input line 665.
 (pdftex.def)             Requested size: 369.88582pt x 244.47pt.
 
-<coolterm4.jpg, id=504, 746.03719pt x 465.23813pt>
+<coolterm4.jpg, id=502, 746.03719pt x 465.23813pt>
 File: coolterm4.jpg Graphic file (type jpg)
  <use coolterm4.jpg>
 Package pdftex.def Info: coolterm4.jpg used on input line 670.
 (pdftex.def)             Requested size: 369.88582pt x 230.66628pt.
 
-<coolterm5.jpg, id=505, 739.26187pt x 459.96844pt>
+<coolterm5.jpg, id=503, 739.26187pt x 459.96844pt>
 File: coolterm5.jpg Graphic file (type jpg)
  <use coolterm5.jpg>
 Package pdftex.def Info: coolterm5.jpg used on input line 675.
@@ -2057,7 +2204,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 678.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [38 <./coolterm2.jpg> <./coolterm3.jpg>]
-<coolterm6.jpg, id=512, 750.55406pt x 455.45157pt>
+<coolterm6.jpg, id=510, 750.55406pt x 455.45157pt>
 File: coolterm6.jpg Graphic file (type jpg)
  <use coolterm6.jpg>
 Package pdftex.def Info: coolterm6.jpg used on input line 680.
@@ -2072,7 +2219,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 685.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [39 <./coolterm4.jpg> <./coolterm5.jpg>]
-<homephp.png, id=520, 1028.34187pt x 554.07pt>
+<homephp.png, id=518, 1028.34187pt x 554.07pt>
 File: homephp.png Graphic file (type png)
  <use homephp.png>
 Package pdftex.def Info: homephp.png used on input line 690.
@@ -2091,13 +2238,13 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 699.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [40 <./coolterm6.jpg> <./homephp.png>]
-<Live_data.png, id=530, 1371.1225pt x 2683.02374pt>
+<Live_data.png, id=528, 1371.1225pt x 2683.02374pt>
 File: Live_data.png Graphic file (type png)
  <use Live_data.png>
 Package pdftex.def Info: Live_data.png used on input line 703.
 (pdftex.def)             Requested size: 170.71652pt x 334.02614pt.
 
-<Live_data2.png, id=531, 1371.1225pt x 2683.02374pt>
+<Live_data2.png, id=529, 1371.1225pt x 2683.02374pt>
 File: Live_data2.png Graphic file (type png)
  <use Live_data2.png>
 Package pdftex.def Info: Live_data2.png used on input line 705.
@@ -2112,7 +2259,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 714.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [41 <./Live_data.png> <./Live_data2.png>]
-<logging_page.png, id=544, 1028.34187pt x 565.36218pt>
+<logging_page.png, id=542, 1028.34187pt x 565.36218pt>
 File: logging_page.png Graphic file (type png)
  <use logging_page.png>
 Package pdftex.def Info: logging_page.png used on input line 717.
@@ -2122,7 +2269,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 717--718
  [][] 
  []
 
-<log.png, id=547, 728.7225pt x 461.47406pt>
+<log.png, id=545, 728.7225pt x 461.47406pt>
 File: log.png Graphic file (type png)
  <use log.png>
 Package pdftex.def Info: log.png used on input line 729.
@@ -2141,7 +2288,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 734.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [42 <./logging_page.png>]
-<full.png, id=556, 726.46407pt x 466.74374pt>
+<full.png, id=554, 726.46407pt x 466.74374pt>
 File: full.png Graphic file (type png)
  <use full.png>
 Package pdftex.def Info: full.png used on input line 744.
@@ -2254,7 +2401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 851--852
 
  []
 
-<diy1.png, id=618, 566.115pt x 551.05875pt>
+<diy1.png, id=617, 566.115pt x 551.05875pt>
 File: diy1.png Graphic file (type png)
  <use diy1.png>
 Package pdftex.def Info: diy1.png used on input line 853.
@@ -2264,7 +2411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 856--857
 
  []
 
-<diy2.jpg, id=619, 4882.24pt x 2746.26pt>
+<diy2.jpg, id=618, 4882.24pt x 2746.26pt>
 File: diy2.jpg Graphic file (type jpg)
  <use diy2.jpg>
 Package pdftex.def Info: diy2.jpg used on input line 858.
@@ -2279,19 +2426,19 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png used on input line 861.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [51 <./diy1.png> <./diy2.jpg>]
-<diy3.jpg, id=625, 2746.26pt x 4882.24pt>
+<diy3.jpg, id=624, 2746.26pt x 4882.24pt>
 File: diy3.jpg Graphic file (type jpg)
  <use diy3.jpg>
 Package pdftex.def Info: diy3.jpg used on input line 862.
 (pdftex.def)             Requested size: 200.75073pt x 356.84009pt.
 
-<diy4.jpg, id=626, 4882.24pt x 2746.26pt>
+<diy4.jpg, id=625, 4882.24pt x 2746.26pt>
 File: diy4.jpg Graphic file (type jpg)
  <use diy4.jpg>
 Package pdftex.def Info: diy4.jpg used on input line 865.
 (pdftex.def)             Requested size: 351.31378pt x 197.57971pt.
 
-<board.jpg, id=627, 4223.78pt x 3131.7pt>
+<board.jpg, id=626, 4223.78pt x 3131.7pt>
 File: board.jpg Graphic file (type jpg)
  <use board.jpg>
 Package pdftex.def Info: board.jpg used on input line 872.
@@ -2416,24 +2563,29 @@ Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 939.
  ) 
 Here is how much of TeX's memory you used:
- 31801 strings out of 493634
- 626607 string characters out of 3143747
+ 31800 strings out of 493634
+ 637340 string characters out of 3131157
  711344 words of memory out of 3000000
  34514 multiletter control sequences out of 15000+200000
  10902 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  63i,16n,101p,10553b,910s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report_eYSIP.pdf (57 pages, 52875688 bytes).
+<C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/AVILASH MOHANTY/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
+rs/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AVILASH MO
+HANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AVILASH MOHANTY/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/A
+VILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti12.pfb>
+Output written on report_eYSIP.pdf (57 pages, 52917412 bytes).
 PDF statistics:
  730 PDF objects out of 1000 (max. 8388607)
  177 named destinations out of 1000 (max. 500000)
