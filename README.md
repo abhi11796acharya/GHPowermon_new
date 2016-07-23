@@ -1,4 +1,6 @@
-![e-Yantra Summer Internship](http://www.e-yantra.org/img/EyantraLogoLarge.png)
+
+![e-Yantra Summer Internship](https://github.com/eYSIP-2016/Autonomous-Drone/blob/master/datasheets/ReadMe_images/iitbblack.jpg)
+
 ***
 # eYSIP-2016-Greenhouse Power Monitoring and Appliance Control
 With this project we aim to make a "smart" device which is able to monitor electrical consumptions of various appliances(exhaust fan,fogger, water pump etc), inform the user about consumption and provide options for scheduling turn on/off time of appliance. The system will consist of a wi-fi enabled device which measure and display power consumption of an appliance. Device will be capable of turning on/off the device from web, scheduling the on/off time of the device. 
@@ -38,20 +40,19 @@ Website will be designed using the following Web development technologies:
 * A feedback system is also present to check and compare current Button status and actual Device status as sent by the Wi-Fi enabled device.
 * The device has a terminal based interactive GUI to configure the Wi-Fi & server setting of device without looking into the code.
 
-
-**Note:**
-
-1. Source code should be documented with comments.
-2. Daily Update of the Progress on the Github wiki.
-
+##Folder Tree
+**
 
 ##Documentation
-***
-> To be updated
-
-##Folder Tree
-***
-> To be updated
+ *Documents* Folder contains the detailed report, Progress presentation and documentation files for CC3200 Wi-Fi launch pad
+##Observations
+ *Observations* Folder contains all the observed data during testing of the device, which also includes waveforms observed on DSO.
+##PCB and schematic
+ *PCB and schematic* Folder contains PCB design file and schematic.
+##Softwares and Codes
+ *Softwares and Codes* Folder contains complete codes with all versions and test files included.It is further divided into web codes  and device codes.
+   * Device Codes : Consists of all codes related to Wi-Fi enabled *"Smart Switchboard"*.
+   * Web codes : Consists of Web GUI related codes.
 
 ##Contributors
 ***
