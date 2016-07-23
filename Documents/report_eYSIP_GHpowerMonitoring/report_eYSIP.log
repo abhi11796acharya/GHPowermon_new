@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.19)  23 JUL 2016 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.19)  24 JUL 2016 00:58
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\boo
-k.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk1
-2.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,24 +22,19 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\
-babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
-\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-en
-glish\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\
-babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -52,22 +43,19 @@ File: babel.def 2016/01/08 3.9n Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inp
-utenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf
-8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1e
-nc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -227,8 +215,7 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1
-enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -269,8 +256,7 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\oms
-enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -294,12 +280,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtex
-t\blindtext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xs
-pace.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count89
@@ -321,17 +305,14 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count105
 \c@blind@pangrammax=\count106
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
-\hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
-ek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
-ek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -372,37 +353,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
-\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxete
-x\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
-\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
-\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count107
 \Hy@pagecounter=\count108
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
-\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count109
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
-\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -414,8 +389,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count110
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -440,15 +414,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
-\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count115
 \c@bookmark@seq@number=\count116
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
-\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -457,8 +428,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr
-\fancyhdr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count117
+\c@@ppsavesec=\count118
+\c@@ppsaveapp=\count119
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip44
 \f@ncyO@elh=\skip45
 \f@ncyO@erh=\skip46
@@ -469,25 +445,21 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 \f@ncyO@olf=\skip51
 \f@ncyO@orf=\skip52
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\fl
-oat.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count117
+\c@float@type=\count120
 \float@exts=\toks17
 \float@box=\box26
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\s
-ubfig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\
-caption.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\
-caption3.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen108
@@ -498,35 +470,33 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen113
 \caption@hangindent=\dimen114
 )
-\c@ContinuedFloat=\count118
+\c@ContinuedFloat=\count121
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count119
+\c@KVtest=\count122
 \sf@farskip=\skip53
 \sf@captopadj=\dimen115
 \sf@capskip=\skip54
 \sf@nearskip=\skip55
-\c@subfigure=\count120
-\c@subfigure@save=\count121
-\c@lofdepth=\count122
-\c@subtable=\count123
-\c@subtable@save=\count124
-\c@lotdepth=\count125
+\c@subfigure=\count123
+\c@subfigure@save=\count124
+\c@lofdepth=\count125
+\c@subtable=\count126
+\c@subtable@save=\count127
+\c@lotdepth=\count128
 \sf@top=\skip56
 \sf@bottom=\skip57
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 26.
-
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 27.
 
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec
-\titlesec.sty"
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip58
@@ -538,77 +508,59 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen119
 \titlewidthfirst=\dimen120
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcolorbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty"
 Package: tcolorbox 2016/07/14 version 3.94 text color boxes
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basi
-clayer\pgf.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
-ities\pgfrcs.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfutil-common.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen121
 \pgfutil@tempdimb=\dimen122
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfutil-common-lists.tex"))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfutil-latex.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box29
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\every
-shi.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basi
-clayer\pgfcore.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
-\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
-\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
-\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
-\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-d
-ef\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count126
+\Gread@gobject=\count129
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\syst
-emlayer\pgfsys.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgfsys.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfkeys.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfkeysfiltered.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen125
@@ -621,44 +573,38 @@ ilities\pgfkeysfiltered.code.tex"
 \pgf@yc=\dimen132
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count127
-\c@pgf@countb=\count128
-\c@pgf@countc=\count129
-\c@pgf@countd=\count130
+\c@pgf@counta=\count130
+\c@pgf@countb=\count131
+\c@pgf@countc=\count132
+\c@pgf@countd=\count133
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgf.cfg"
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgfsys-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgfsys-common-pdf.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgfsyssoftpath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count131
-\pgfsyssoftpath@bigbuffer@items=\count132
+\pgfsyssoftpath@smallbuffer@items=\count134
+\pgfsyssoftpath@bigbuffer@items=\count135
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
-stemlayer\pgfsysprotocol.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\x
-color.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
-\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -672,49 +618,42 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcore.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmath.code.tex"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathcalc.code.tex"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathutil.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathparser.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen133
-\pgfmath@count=\count133
+\pgfmath@count=\count136
 \pgfmath@box=\box30
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.code.tex"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.basic.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.trigonometric.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.random.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.comparison.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.base.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.round.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.misc.code.tex")
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfunctions.integerarithmetics.code.tex")))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count134
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count137
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorepoints.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen134
 \pgf@picmaxx=\dimen135
@@ -731,130 +670,119 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen146
 \pgf@zy=\dimen147
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorepathconstruct.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen148
 \pgf@path@lasty=\dimen149
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorepathusage.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen150
 \pgf@shorten@start@additional=\dimen151
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorescopes.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count135
+\pgf@picture@serial@count=\count138
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoregraphicstate.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen152
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoretransformations.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen153
 \pgf@pt@y=\dimen154
 \pgf@pt@temp=\dimen155
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorequick.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoreobjects.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorepathprocessing.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorearrows.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen156
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoreshade.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen157
-\pgf@sys@shading@range@num=\count136
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoreimage.code.tex"
+\pgf@sys@shading@range@num=\count139
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoreexternal.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box34
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorelayers.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcoretransparency.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
-siclayer\pgfcorepatterns.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
-dules\pgfmoduleshapes.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box35
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
-dules\pgfmoduleplot.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
-atibility\pgfcomp-version-0-65.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen158
 \pgf@nodesepend=\dimen159
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
-atibility\pgfcomp-version-1-18.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ve
-rbatim.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks30
 \verbatim@line=\toks31
 \verbatim@in@stream=\read2
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\
-environ.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspac
-es\trimspaces.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks32
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox
-\etoolbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count137
+\etb@tempcnta=\count140
 )
 \tcb@titlebox=\box36
 \tcb@upperbox=\box37
 \tcb@lowerbox=\box38
 \tcb@phantombox=\box39
-\c@tcbbreakpart=\count138
-\c@tcblayer=\count139
-\tcolorbox@number=\count140
+\c@tcbbreakpart=\count141
+\c@tcblayer=\count142
+\tcolorbox@number=\count143
 \tcb@temp=\box40
 \tcb@temp=\box41
 \tcb@temp=\box42
@@ -862,48 +790,35 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \tcb@out=\write4
 \tcb@record@out=\write5
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbraster.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbraster.code.tex"
 Library (tcolorbox): 'tcbraster.code.tex' version '3.94'
-\c@tcbrastercolumn=\count141
-\c@tcbrasterrow=\count142
-\c@tcbraster=\count143
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbskins.code.tex"
+\c@tcbrastercolumn=\count144
+\c@tcbrasterrow=\count145
+\c@tcbraster=\count146
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins.code.tex"
 Library (tcolorbox): 'tcbskins.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\fron
-tendlayer\tikz.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
-ities\pgffor.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\util
-ities\pgfkeys.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgfkeys.code.tex"))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math
-\pgfmath.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmath.code.tex"))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
-ilities\pgffor.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
-th\pgfmath.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen160
 \pgffor@skip=\dimen161
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
-ontendlayer\tikz\tikz.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
-braries\pgflibraryplothandlers.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count144
+\pgf@plot@mark@count=\count147
 \pgfplotmarksize=\dimen162
 )
 \tikz@lastx=\dimen163
@@ -916,78 +831,63 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box45
 \tikz@tempbox=\box46
 \tikz@tempbox@bg=\box47
-\tikztreelevel=\count145
-\tikznumberofchildren=\count146
-\tikznumberofcurrentchild=\count147
-\tikz@fig@count=\count148
+\tikztreelevel=\count148
+\tikznumberofchildren=\count149
+\tikznumberofcurrentchild=\count150
+\tikz@fig@count=\count151
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
-dules\pgfmodulematrix.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count149
-\pgfmatrixcurrentcolumn=\count150
-\pgf@matrix@numberofcolumns=\count151
+\pgfmatrixcurrentrow=\count152
+\pgfmatrixcurrentcolumn=\count153
+\pgf@matrix@numberofcolumns=\count154
 )
-\tikz@expandcount=\count152
+\tikz@expandcount=\count155
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
-ontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 \tcb@waterbox=\box48
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbskinsjigsaw.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskinsjigsaw.code.tex"
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.94'
-))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbbreakable.code.tex"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbbreakable.code.tex"
 Library (tcolorbox): 'tcbbreakable.code.tex' version '3.94'
 \tcb@testbox=\box49
 \tcb@totalupperbox=\box50
 \tcb@totallowerbox=\box51
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbhooks.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbhooks.code.tex"
 Library (tcolorbox): 'tcbhooks.code.tex' version '3.94'
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbtheorems.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbtheorems.code.tex"
 Library (tcolorbox): 'tcbtheorems.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
-amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
-amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
-amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks35
 \ex@=\dimen169
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
-amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen170
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\
-amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count153
+\inf@bad=\count156
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count154
-\leftroot@=\count155
+\uproot@=\count157
+\leftroot@=\count158
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count156
-\DOTSCASE@=\count157
+\classnum@=\count159
+\DOTSCASE@=\count160
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -996,15 +896,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count158
-\c@MaxMatrixCols=\count159
+\macc@depth=\count161
+\c@MaxMatrixCols=\count162
 \dotsspace@=\muskip11
-\c@parentequation=\count160
-\dspbrk@lvl=\count161
+\c@parentequation=\count163
+\dspbrk@lvl=\count164
 \tag@help=\toks36
-\row@=\count162
-\column@=\count163
-\maxfields@=\count164
+\row@=\count165
+\column@=\count166
+\maxfields@=\count167
 \andhelp@=\toks37
 \eqnshift@=\dimen172
 \alignsep@=\dimen173
@@ -1019,26 +919,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbfitting.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbfitting.code.tex"
 Library (tcolorbox): 'tcbfitting.code.tex' version '3.94'
 \tcbfitdim=\dimen178
 \tcb@lowerfitdim=\dimen179
 \tcb@upperfitdim=\dimen180
-\tcb@cur@hbadness=\count165
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbxparse.code.tex"
+\tcb@cur@hbadness=\count168
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbxparse.code.tex"
 Library (tcolorbox): 'tcbxparse.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packag
-es\xparse\xparse.sty"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
-\expl3.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
-\expl3-code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
@@ -1048,24 +941,24 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count166
-\l_tmpa_int=\count167
-\l_tmpb_int=\count168
-\g_tmpa_int=\count169
-\g_tmpb_int=\count170
+\c_max_int=\count169
+\l_tmpa_int=\count170
+\l_tmpb_int=\count171
+\g_tmpa_int=\count172
+\g_tmpb_int=\count173
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count171
+\g__prg_map_int=\count174
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count172
-\l__iow_target_count_int=\count173
-\l__iow_current_line_int=\count174
-\l__iow_current_word_int=\count175
-\l__iow_current_indentation_int=\count176
+\l_iow_line_count_int=\count175
+\l__iow_target_count_int=\count176
+\l__iow_current_line_int=\count177
+\l__iow_current_word_int=\count178
+\l__iow_current_indentation_int=\count179
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen181
 \c_max_dim=\dimen182
@@ -1086,18 +979,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count177
-\l_keys_choice_int=\count178
+\g__keyval_level_int=\count180
+\l_keys_choice_int=\count181
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count179
-\c__fp_middle_shift_int=\count180
-\c__fp_trailing_shift_int=\count181
-\c__fp_big_leading_shift_int=\count182
-\c__fp_big_middle_shift_int=\count183
-\c__fp_big_trailing_shift_int=\count184
-\c__fp_Bigg_leading_shift_int=\count185
-\c__fp_Bigg_middle_shift_int=\count186
-\c__fp_Bigg_trailing_shift_int=\count187
+\c__fp_leading_shift_int=\count182
+\c__fp_middle_shift_int=\count183
+\c__fp_trailing_shift_int=\count184
+\c__fp_big_leading_shift_int=\count185
+\c__fp_big_middle_shift_int=\count186
+\c__fp_big_trailing_shift_int=\count187
+\c__fp_Bigg_leading_shift_int=\count188
+\c__fp_Bigg_middle_shift_int=\count189
+\c__fp_Bigg_trailing_shift_int=\count190
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box54
 \l_tmpa_box=\box55
@@ -1145,18 +1038,17 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen267
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel
-\l3pdfmode.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count188
+\l__driver_color_stack_int=\count191
 \l__driver_tmp_box=\box69
 ))
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count189
-\l__xparse_m_args_int=\count190
-\l__xparse_mandatory_args_int=\count191
-\l__xparse_processor_int=\count192
-\l__xparse_v_nesting_int=\count193
+\l__xparse_current_arg_int=\count192
+\l__xparse_m_args_int=\count193
+\l__xparse_mandatory_args_int=\count194
+\l__xparse_processor_int=\count195
+\l__xparse_v_nesting_int=\count196
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1169,122 +1061,94 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcblistingsutf8.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingsutf8.code.tex"
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
-\listingsutf8.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\listingsutf8.sty"
 Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
-\listings.sty"
-\lst@mode=\count194
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count197
 \lst@gtempboxa=\box70
 \lst@token=\toks40
-\lst@length=\count195
+\lst@length=\count198
 \lst@currlwidth=\dimen268
-\lst@column=\count196
-\lst@pos=\count197
+\lst@column=\count199
+\lst@pos=\count266
 \lst@lostspace=\dimen269
 \lst@width=\dimen270
-\lst@newlines=\count198
-\lst@lineno=\count199
+\lst@newlines=\count267
+\lst@lineno=\count268
 \lst@maxwidth=\dimen271
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
-\lstmisc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count266
-\lst@skipnumbers=\count267
+\c@lstnumber=\count269
+\lst@skipnumbers=\count270
 \lst@framebox=\box71
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings
-\listings.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
-ek\stringenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcblistings.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistings.code.tex"
 Library (tcolorbox): 'tcblistings.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcblistingscore.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingscore.code.tex"
 Library (tcolorbox): 'tcblistingscore.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbprocessing.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbprocessing.code.tex"
 Library (tcolorbox): 'tcbprocessing.code.tex' version '3.94'
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\sh
-ellesc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\shellesc\shellesc.sty"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 ))
-\c@tcblisting=\count268
+\c@tcblisting=\count271
 )))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbexternal.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbexternal.code.tex"
 Library (tcolorbox): 'tcbexternal.code.tex' version '3.94'
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbmagazine.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbmagazine.code.tex"
 Library (tcolorbox): 'tcbmagazine.code.tex' version '3.94'
-)
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbo
-x\tcbvignette.code.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbvignette.code.tex"
 Library (tcolorbox): 'tcbvignette.code.tex' version '3.94'
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
-ontendlayer\tikz\libraries\tikzlibraryfadings.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+libraryfadings.code.tex"
 File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
-braries\pgflibraryfadings.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
+tex"
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-))))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\marginno
-te\marginnote.sty"
+)))) ("C:\Program Files\MiKTeX 2.9\tex\latex\marginnote\marginnote.sty"
 Package: marginnote 2016/06/02 v1.2 non floating margin notes for LaTeX
-\c@mn@abspage=\count269
+\c@mn@abspage=\count272
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\backgrou
-nd\background.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\background\background.sty"
 Package: background 2014/03/04 v2.1 background material
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\
-xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyva
-l\xkeyval.tex"
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyva
-l\xkvutils.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count270
+\XKV@depth=\count273
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\everypag
-e\everypage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\everypage\everypage.sty"
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\af
-terpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks43
 \AP@partial=\box72
 \AP@footins=\box73
 ))
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\sou
-l.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks44
 \SOUL@lasttoken=\toks45
@@ -1298,37 +1162,36 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 ) (report_eYSIP.aux)
 \openout1 = `report_eYSIP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 76.
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
-\nameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
-ek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count271
+\c@section@level=\count274
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
- (report_eYSIP.out) (report_eYSIP.out)
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
+
+(report_eYSIP.out) (report_eYSIP.out)
 \@outlinefile=\write6
 \openout6 = `report_eYSIP.out'.
 
@@ -1336,88 +1199,85 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-ABD: EveryShipout initializing macros
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\s
-upp-pdf.mkii"
+ ABD: EveryShipout initializing macros
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
+\scratchcounter=\count275
 \scratchdimen=\dimen275
 \scratchbox=\box75
-\nofMPsegments=\count273
-\nofMParguments=\count274
+\nofMPsegments=\count276
+\nofMParguments=\count277
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count275
+\MPscratchCnt=\count278
 \MPscratchDim=\dimen276
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
 \everyMPtoPDFconversion=\toks50
 )
-\c@lstlisting=\count278
+\c@lstlisting=\count281
 Package marginnote Info: \pdfoutput not 0 or unimportant and
 (marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
- <logo.png, id=102, 123.46124pt x 131.49126pt>
+ <logo.png, id=110, 123.46124pt x 131.49126pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 126.
+Package pdftex.def Info: logo.png used on input line 127.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [1
 
 
-{C:/Users/AVILASH MOHANTY/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
-/logo.png>]
+{C:/Users/BABU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png>]
+
 (report_eYSIP.toc)
 \tf@toc=\write7
 \openout7 = `report_eYSIP.toc'.
 
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 131.
+Package pdftex.def Info: logo.png used on input line 132.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \chapter
+l.132 \chapter
               [Greenhouse Power Monitoring and Appliance Control]{Greenhouse...
 [1
 
 ]
 Chapter 1.
 
-Overfull \hbox (29.50165pt too wide) in paragraph at lines 131--131
+Overfull \hbox (29.50165pt too wide) in paragraph at lines 132--132
 |[]\OT1/cmr/bx/n/24.88 Greenhouse Power Mon-i-tor-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 137.
+Package pdftex.def Info: logo.png used on input line 138.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 141.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
-
-("C:\Users\AVILASH MOHANTY\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\oms
-cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 167.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 168.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 167.
+Package pdftex.def Info: logo.png used on input line 168.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1427,476 +1287,489 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Overfull \hbox (55.13312pt too wide) in paragraph at lines 172--193
+Overfull \hbox (55.13312pt too wide) in paragraph at lines 173--194
 [][]
  []
 
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 203.
+
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 204.
+Package pdftex.def Info: logo.png used on input line 205.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 204.
+Package pdftex.def Info: logo.png used on input line 205.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [4]
-<connection.png, id=176, 1126.2075pt x 761.84625pt>
+<connection.png, id=186, 1126.2075pt x 761.84625pt>
 File: connection.png Graphic file (type png)
  <use connection.png>
-Package pdftex.def Info: connection.png used on input line 207.
+Package pdftex.def Info: connection.png used on input line 208.
 (pdftex.def)             Requested size: 391.46393pt x 264.81346pt.
 
-Overfull \hbox (1.46393pt too wide) in paragraph at lines 207--208
+Overfull \hbox (1.46393pt too wide) in paragraph at lines 208--209
 [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 225.
+Package pdftex.def Info: logo.png used on input line 226.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 225.
+Package pdftex.def Info: logo.png used on input line 226.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [5 <./connection.png>]
-<inst1.jpg, id=187, 738.50906pt x 447.92343pt>
+<inst1.jpg, id=197, 738.50906pt x 447.92343pt>
 File: inst1.jpg Graphic file (type jpg)
  <use inst1.jpg>
-Package pdftex.def Info: inst1.jpg used on input line 235.
+Package pdftex.def Info: inst1.jpg used on input line 236.
 (pdftex.def)             Requested size: 301.1261pt x 182.63824pt.
 
-<inst2.jpg, id=188, 591.71063pt x 431.36156pt>
+<inst2.jpg, id=198, 591.71063pt x 431.36156pt>
 File: inst2.jpg Graphic file (type jpg)
  <use inst2.jpg>
-Package pdftex.def Info: inst2.jpg used on input line 240.
+Package pdftex.def Info: inst2.jpg used on input line 241.
 (pdftex.def)             Requested size: 301.1261pt x 219.53073pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 242.
+Package pdftex.def Info: logo.png used on input line 243.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 242.
+Package pdftex.def Info: logo.png used on input line 243.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [6 <./inst1.jpg> <./inst2.jpg>]
-<inst3.jpg, id=198, 550.30594pt x 359.84438pt>
+<inst3.jpg, id=208, 550.30594pt x 359.84438pt>
 File: inst3.jpg Graphic file (type jpg)
  <use inst3.jpg>
-Package pdftex.def Info: inst3.jpg used on input line 246.
+Package pdftex.def Info: inst3.jpg used on input line 247.
 (pdftex.def)             Requested size: 301.1261pt x 196.9102pt.
 
-<inst4.jpg, id=199, 465.23813pt x 404.26031pt>
+<inst4.jpg, id=209, 465.23813pt x 404.26031pt>
 File: inst4.jpg Graphic file (type jpg)
  <use inst4.jpg>
-Package pdftex.def Info: inst4.jpg used on input line 251.
+Package pdftex.def Info: inst4.jpg used on input line 252.
 (pdftex.def)             Requested size: 250.93842pt x 218.0444pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 253.
+Package pdftex.def Info: logo.png used on input line 254.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 253.
+Package pdftex.def Info: logo.png used on input line 254.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [7 <./inst3.jpg> <./inst4.jpg>]
-<inst5.jpg, id=208, 730.98094pt x 439.6425pt>
+<inst5.jpg, id=218, 730.98094pt x 439.6425pt>
 File: inst5.jpg Graphic file (type jpg)
  <use inst5.jpg>
-Package pdftex.def Info: inst5.jpg used on input line 261.
+Package pdftex.def Info: inst5.jpg used on input line 262.
 (pdftex.def)             Requested size: 301.1261pt x 181.10655pt.
 
-<inst6.jpg, id=209, 609.77812pt x 334.24875pt>
+<inst6.jpg, id=219, 609.77812pt x 334.24875pt>
 File: inst6.jpg Graphic file (type jpg)
  <use inst6.jpg>
-Package pdftex.def Info: inst6.jpg used on input line 267.
+Package pdftex.def Info: inst6.jpg used on input line 268.
 (pdftex.def)             Requested size: 301.1261pt x 165.06857pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 269.
+Package pdftex.def Info: logo.png used on input line 270.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 269.
+Package pdftex.def Info: logo.png used on input line 270.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [8 <./inst5.jpg> <./inst6.jpg>]
-<inst7.jpg, id=217, 614.295pt x 356.0803pt>
+<inst7.jpg, id=227, 614.295pt x 356.0803pt>
 File: inst7.jpg Graphic file (type jpg)
  <use inst7.jpg>
-Package pdftex.def Info: inst7.jpg used on input line 273.
+Package pdftex.def Info: inst7.jpg used on input line 274.
 (pdftex.def)             Requested size: 301.1261pt x 174.55151pt.
 
-<inst8.jpg, id=218, 606.76688pt x 472.76625pt>
+<inst8.jpg, id=228, 606.76688pt x 472.76625pt>
 File: inst8.jpg Graphic file (type jpg)
  <use inst8.jpg>
-Package pdftex.def Info: inst8.jpg used on input line 278.
+Package pdftex.def Info: inst8.jpg used on input line 279.
 (pdftex.def)             Requested size: 301.1261pt x 234.62958pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 281.
+Package pdftex.def Info: logo.png used on input line 282.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 281.
+Package pdftex.def Info: logo.png used on input line 282.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [9 <./inst7.jpg> <./inst8.jpg>]
-<inst9.jpg, id=227, 490.83376pt x 277.78781pt>
+<inst9.jpg, id=237, 490.83376pt x 277.78781pt>
 File: inst9.jpg Graphic file (type jpg)
  <use inst9.jpg>
-Package pdftex.def Info: inst9.jpg used on input line 289.
+Package pdftex.def Info: inst9.jpg used on input line 290.
 (pdftex.def)             Requested size: 301.1261pt x 170.42944pt.
 
-<inst10.jpg, id=228, 541.27219pt x 356.83313pt>
+<inst10.jpg, id=238, 541.27219pt x 356.83313pt>
 File: inst10.jpg Graphic file (type jpg)
  <use inst10.jpg>
-Package pdftex.def Info: inst10.jpg used on input line 294.
+Package pdftex.def Info: inst10.jpg used on input line 295.
 (pdftex.def)             Requested size: 301.1261pt x 198.52386pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 296.
+Package pdftex.def Info: logo.png used on input line 297.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 296.
+Package pdftex.def Info: logo.png used on input line 297.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [10 <./inst9.jpg> <./inst10.jpg>]
-<inst11.jpg, id=237, 779.16093pt x 481.8pt>
+<inst11.jpg, id=247, 779.16093pt x 481.8pt>
 File: inst11.jpg Graphic file (type jpg)
  <use inst11.jpg>
-Package pdftex.def Info: inst11.jpg used on input line 300.
+Package pdftex.def Info: inst11.jpg used on input line 301.
 (pdftex.def)             Requested size: 301.1261pt x 186.203pt.
 
-<inst12.jpg, id=238, 770.12718pt x 472.01344pt>
+<inst12.jpg, id=248, 770.12718pt x 472.01344pt>
 File: inst12.jpg Graphic file (type jpg)
  <use inst12.jpg>
-Package pdftex.def Info: inst12.jpg used on input line 304.
+Package pdftex.def Info: inst12.jpg used on input line 305.
 (pdftex.def)             Requested size: 301.1261pt x 184.55984pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 306.
+Package pdftex.def Info: logo.png used on input line 307.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 306.
+Package pdftex.def Info: logo.png used on input line 307.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [11 <./inst11.jpg> <./inst12.jpg>]
-<inst13.jpg, id=246, 761.09344pt x 423.83344pt>
+<inst13.jpg, id=256, 761.09344pt x 423.83344pt>
 File: inst13.jpg Graphic file (type jpg)
  <use inst13.jpg>
-Package pdftex.def Info: inst13.jpg used on input line 310.
+Package pdftex.def Info: inst13.jpg used on input line 311.
 (pdftex.def)             Requested size: 301.1261pt x 167.69368pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 313.
+Package pdftex.def Info: logo.png used on input line 314.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 313.
+Package pdftex.def Info: logo.png used on input line 314.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [12 <./inst13.jpg>]
-<inst14.jpg, id=255, 536.0025pt x 336.50719pt>
+<inst14.jpg, id=265, 536.0025pt x 336.50719pt>
 File: inst14.jpg Graphic file (type jpg)
  <use inst14.jpg>
-Package pdftex.def Info: inst14.jpg used on input line 321.
+Package pdftex.def Info: inst14.jpg used on input line 322.
 (pdftex.def)             Requested size: 301.1261pt x 189.04861pt.
 
-<inst15.jpg, id=256, 393.72093pt x 307.1475pt>
+<inst15.jpg, id=266, 393.72093pt x 307.1475pt>
 File: inst15.jpg Graphic file (type jpg)
  <use inst15.jpg>
-Package pdftex.def Info: inst15.jpg used on input line 325.
+Package pdftex.def Info: inst15.jpg used on input line 326.
 (pdftex.def)             Requested size: 301.1261pt x 234.91083pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 328.
+Package pdftex.def Info: logo.png used on input line 329.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 328.
+Package pdftex.def Info: logo.png used on input line 329.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [13 <./inst14.jpg> <./inst15.jpg>]
-File: inst14.jpg Graphic file (type jpg)
- <use inst14.jpg>
-Package pdftex.def Info: inst14.jpg used on input line 337.
-(pdftex.def)             Requested size: 301.1261pt x 189.04861pt.
-File: inst15.jpg Graphic file (type jpg)
-
-<use inst15.jpg>
-Package pdftex.def Info: inst15.jpg used on input line 341.
-(pdftex.def)             Requested size: 301.1261pt x 234.91083pt.
+<service1.jpg, id=276, 389.20406pt x 293.59688pt>
+File: service1.jpg Graphic file (type jpg)
+ <use service1.jpg>
+Package pdftex.def Info: service1.jpg used on input line 338.
+(pdftex.def)             Requested size: 301.1261pt x 227.16338pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 344.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 341.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 344.
+Package pdftex.def Info: logo.png used on input line 341.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [14]
-<inst16.jpg, id=276, 529.22719pt x 455.45157pt>
+ [14 <./service1.jpg>]
+<inst16.jpg, id=286, 529.22719pt x 455.45157pt>
 File: inst16.jpg Graphic file (type jpg)
  <use inst16.jpg>
-Package pdftex.def Info: inst16.jpg used on input line 350.
+Package pdftex.def Info: inst16.jpg used on input line 347.
 (pdftex.def)             Requested size: 271.01349pt x 233.23627pt.
 
-<inst17.jpg, id=277, 532.99126pt x 370.38374pt>
+<inst17.jpg, id=287, 532.99126pt x 370.38374pt>
 File: inst17.jpg Graphic file (type jpg)
  <use inst17.jpg>
-Package pdftex.def Info: inst17.jpg used on input line 354.
+Package pdftex.def Info: inst17.jpg used on input line 351.
 (pdftex.def)             Requested size: 271.01349pt x 188.3337pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 356.
+Package pdftex.def Info: logo.png used on input line 353.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 356.
+Package pdftex.def Info: logo.png used on input line 353.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [15 <./inst16.jpg> <./inst17.jpg>]
-<xampp1.png, id=288, 469.00218pt x 392.21532pt>
+<xampp1.png, id=298, 469.00218pt x 392.21532pt>
 File: xampp1.png Graphic file (type png)
  <use xampp1.png>
-Package pdftex.def Info: xampp1.png used on input line 371.
+Package pdftex.def Info: xampp1.png used on input line 368.
 (pdftex.def)             Requested size: 369.88582pt x 309.32603pt.
 
-<xampp12.png, id=289, 466.74374pt x 389.95688pt>
+<xampp12.png, id=299, 466.74374pt x 389.95688pt>
 File: xampp12.png Graphic file (type png)
  <use xampp12.png>
-Package pdftex.def Info: xampp12.png used on input line 375.
+Package pdftex.def Info: xampp12.png used on input line 372.
 (pdftex.def)             Requested size: 369.88582pt x 309.04434pt.
 
-<xampp3.png, id=290, 532.99126pt x 347.04657pt>
+<xampp3.png, id=300, 532.99126pt x 347.04657pt>
 File: xampp3.png Graphic file (type png)
  <use xampp3.png>
-Package pdftex.def Info: xampp3.png used on input line 379.
+Package pdftex.def Info: xampp3.png used on input line 376.
 (pdftex.def)             Requested size: 369.88582pt x 240.84981pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 381.
+Package pdftex.def Info: logo.png used on input line 378.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 381.
+Package pdftex.def Info: logo.png used on input line 378.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [16 <./xampp1.png>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 382.
+Package pdftex.def Info: logo.png used on input line 379.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 382.
+Package pdftex.def Info: logo.png used on input line 379.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [17 <./xampp12.png>]
-<httpconf2.png, id=313, 502.87875pt x 326.72063pt>
+<httpconf2.png, id=323, 502.87875pt x 326.72063pt>
 File: httpconf2.png Graphic file (type png)
  <use httpconf2.png>
-Package pdftex.def Info: httpconf2.png used on input line 387.
+Package pdftex.def Info: httpconf2.png used on input line 384.
 (pdftex.def)             Requested size: 369.88582pt x 240.31375pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 390.
+Package pdftex.def Info: logo.png used on input line 387.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 390.
+Package pdftex.def Info: logo.png used on input line 387.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [18 <./xampp3.png>]
-<override.png, id=322, 1028.34187pt x 548.0475pt>
+<override.png, id=332, 1028.34187pt x 548.0475pt>
 File: override.png Graphic file (type png)
  <use override.png>
-Package pdftex.def Info: override.png used on input line 393.
+Package pdftex.def Info: override.png used on input line 390.
 (pdftex.def)             Requested size: 369.88582pt x 197.1297pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 401.
+Package pdftex.def Info: logo.png used on input line 398.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 401.
+Package pdftex.def Info: logo.png used on input line 398.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [19 <./httpconf2.png> <./override.png>]
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 411.
+Package pdftex.def Info: logo.png used on input line 408.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 411.
+Package pdftex.def Info: logo.png used on input line 408.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [20]
-<schematic.jpg, id=343, 849.574pt x 413.545pt>
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 410.
+
+<schematic.jpg, id=353, 849.574pt x 413.545pt>
 File: schematic.jpg Graphic file (type jpg)
  <use schematic.jpg>
-Package pdftex.def Info: schematic.jpg used on input line 416.
+Package pdftex.def Info: schematic.jpg used on input line 413.
 (pdftex.def)             Requested size: 381.42325pt x 381.43777pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 418.
+Package pdftex.def Info: logo.png used on input line 415.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 418.
+Package pdftex.def Info: logo.png used on input line 415.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [21 <./schematic.jpg>]
-<plug1.jpg, id=350, 4223.78pt x 3131.7pt>
+<plug1.jpg, id=360, 4223.78pt x 3131.7pt>
 File: plug1.jpg Graphic file (type jpg)
  <use plug1.jpg>
-Package pdftex.def Info: plug1.jpg used on input line 423.
+Package pdftex.def Info: plug1.jpg used on input line 420.
 (pdftex.def)             Requested size: 301.1261pt x 223.2554pt.
 
-<plug2.jpg, id=351, 4223.78pt x 3131.7pt>
+<plug2.jpg, id=361, 4223.78pt x 3131.7pt>
 File: plug2.jpg Graphic file (type jpg)
  <use plug2.jpg>
-Package pdftex.def Info: plug2.jpg used on input line 424.
+Package pdftex.def Info: plug2.jpg used on input line 421.
 (pdftex.def)             Requested size: 301.1261pt x 223.2554pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--425
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
 [][]
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 426.
+Package pdftex.def Info: logo.png used on input line 423.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 426.
+Package pdftex.def Info: logo.png used on input line 423.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [22 <./plug1.jpg> <./plug2.jpg>]
-<assem1.jpg, id=358, 4223.78pt x 3131.7pt>
+<assem1.jpg, id=368, 4223.78pt x 3131.7pt>
 File: assem1.jpg Graphic file (type jpg)
  <use assem1.jpg>
-Package pdftex.def Info: assem1.jpg used on input line 430.
+Package pdftex.def Info: assem1.jpg used on input line 427.
 (pdftex.def)             Requested size: 401.45662pt x 200.74828pt.
 
-Overfull \hbox (11.45662pt too wide) in paragraph at lines 430--431
+Overfull \hbox (11.45662pt too wide) in paragraph at lines 427--428
 [][] 
  []
 
-<assem2.jpg, id=359, 4223.78pt x 3131.7pt>
+<assem2.jpg, id=369, 4223.78pt x 3131.7pt>
 File: assem2.jpg Graphic file (type jpg)
  <use assem2.jpg>
-Package pdftex.def Info: assem2.jpg used on input line 435.
+Package pdftex.def Info: assem2.jpg used on input line 432.
 (pdftex.def)             Requested size: 401.45662pt x 200.74828pt.
 
-Overfull \hbox (11.45662pt too wide) in paragraph at lines 435--436
+Overfull \hbox (11.45662pt too wide) in paragraph at lines 432--433
 [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 437.
+Package pdftex.def Info: logo.png used on input line 434.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 437.
+Package pdftex.def Info: logo.png used on input line 434.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [23 <./assem1.jpg> <./assem2.jpg>]
-<assem3.jpg, id=368, 3131.7pt x 4223.78pt>
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 436.
+
+<assem3.jpg, id=378, 3131.7pt x 4223.78pt>
 File: assem3.jpg Graphic file (type jpg)
  <use assem3.jpg>
-Package pdftex.def Info: assem3.jpg used on input line 441.
+Package pdftex.def Info: assem3.jpg used on input line 438.
 (pdftex.def)             Requested size: 301.09853pt x 200.69608pt.
 
-<assem4.jpg, id=370, 4223.78pt x 3131.7pt>
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 441.
+
+<assem4.jpg, id=380, 4223.78pt x 3131.7pt>
 File: assem4.jpg Graphic file (type jpg)
  <use assem4.jpg>
-Package pdftex.def Info: assem4.jpg used on input line 446.
+Package pdftex.def Info: assem4.jpg used on input line 443.
 (pdftex.def)             Requested size: 301.10858pt x 200.74828pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 451.
+Package pdftex.def Info: logo.png used on input line 448.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 451.
+Package pdftex.def Info: logo.png used on input line 448.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [24 <./assem3.jpg> <./assem4.jpg>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 464.
+Package pdftex.def Info: logo.png used on input line 461.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 464.
+Package pdftex.def Info: logo.png used on input line 461.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [25] <assem5.jpg, id=384, 4223.78pt x 3131.7pt>
+ [25] <assem5.jpg, id=394, 4223.78pt x 3131.7pt>
 File: assem5.jpg Graphic file (type jpg)
 
 <use assem5.jpg>
-Package pdftex.def Info: assem5.jpg used on input line 466.
+Package pdftex.def Info: assem5.jpg used on input line 463.
 (pdftex.def)             Requested size: 351.31482pt x 351.27365pt.
+
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 465.
+
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 472.
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 469.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 472.
+Package pdftex.def Info: logo.png used on input line 469.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [26 <./assem5.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-<coolterm1.jpg, id=393, 528.47438pt x 452.4403pt>
+<coolterm1.jpg, id=403, 528.47438pt x 452.4403pt>
 File: coolterm1.jpg Graphic file (type jpg)
  <use coolterm1.jpg>
-Package pdftex.def Info: coolterm1.jpg used on input line 481.
+Package pdftex.def Info: coolterm1.jpg used on input line 478.
 (pdftex.def)             Requested size: 426.79134pt x 365.38387pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 481--482
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 478--479
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 492.
+Package pdftex.def Info: logo.png used on input line 489.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 492.
+Package pdftex.def Info: logo.png used on input line 489.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [27 <./coolterm1.jpg>]
-<reading.png, id=400, 721.94719pt x 420.82219pt>
+<reading.png, id=410, 721.94719pt x 420.82219pt>
 File: reading.png Graphic file (type png)
  <use reading.png>
-Package pdftex.def Info: reading.png used on input line 500.
+Package pdftex.def Info: reading.png used on input line 497.
 (pdftex.def)             Requested size: 426.79134pt x 248.77736pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 500--501
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 497--498
  [][] 
  []
 
 
-Overfull \hbox (3.46509pt too wide) in paragraph at lines 497--503
+Overfull \hbox (3.46509pt too wide) in paragraph at lines 494--500
 []\OT1/cmr/m/n/12 Table name - $\OML/cmm/m/it/12 reading$\OT1/cmr/m/n/12 , It h
 olds data un-der the columns $\OML/cmm/m/it/12 id$\OT1/cmr/m/n/12 (Auto
  []
 
 
-Overfull \hbox (23.69952pt too wide) in paragraph at lines 497--503
+Overfull \hbox (23.69952pt too wide) in paragraph at lines 494--500
 \OT1/cmr/m/n/12 In-cre-ment), $\OML/cmm/m/it/12 Current\OT1/cmr/m/n/12 1$, $\OM
 L/cmm/m/it/12 Current\OT1/cmr/m/n/12 2$, $\OML/cmm/m/it/12 Current\OT1/cmr/m/n/
 12 3$, $\OML/cmm/m/it/12 Voltage$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 Frequency$
@@ -1904,243 +1777,243 @@ L/cmm/m/it/12 Current\OT1/cmr/m/n/12 2$, $\OML/cmm/m/it/12 Current\OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (3.29262pt too wide) in paragraph at lines 505--506
+Overfull \hbox (3.29262pt too wide) in paragraph at lines 502--503
 []\OT1/cmr/m/n/12 Table name - $\OML/cmm/m/it/12 para$\OT1/cmr/m/n/12 , It only
  keeps the lat-est value un-der columns
  []
 
-<para.png, id=401, 439.6425pt x 283.81032pt>
+<para.png, id=411, 439.6425pt x 283.81032pt>
 File: para.png Graphic file (type png)
  <use para.png>
-Package pdftex.def Info: para.png used on input line 509.
+Package pdftex.def Info: para.png used on input line 506.
 (pdftex.def)             Requested size: 426.79134pt x 275.52086pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 509--510
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 506--507
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 513.
+Package pdftex.def Info: logo.png used on input line 510.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 513.
+Package pdftex.def Info: logo.png used on input line 510.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [28 <./reading.png>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 515.
+Package pdftex.def Info: logo.png used on input line 512.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 515.
+Package pdftex.def Info: logo.png used on input line 512.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [29 <./para.png>]
-<freq1.png, id=416, 1002.74625pt x 439.6425pt>
+<freq1.png, id=426, 1002.74625pt x 439.6425pt>
 File: freq1.png Graphic file (type png)
  <use freq1.png>
-Package pdftex.def Info: freq1.png used on input line 525.
+Package pdftex.def Info: freq1.png used on input line 522.
 (pdftex.def)             Requested size: 426.79134pt x 187.12398pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 525--526
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 522--523
  [][] 
  []
 
-<freq_mov.png, id=417, 1012.5328pt x 450.9347pt>
+<freq_mov.png, id=427, 1012.5328pt x 450.9347pt>
 File: freq_mov.png Graphic file (type png)
  <use freq_mov.png>
-Package pdftex.def Info: freq_mov.png used on input line 532.
+Package pdftex.def Info: freq_mov.png used on input line 529.
 (pdftex.def)             Requested size: 426.79134pt x 190.07246pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 532--533
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 529--530
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 536.
+Package pdftex.def Info: logo.png used on input line 533.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 536.
+Package pdftex.def Info: logo.png used on input line 533.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [30 <./freq1.png>]
-<phase_today.png, id=426, 1009.52156pt x 488.57532pt>
+<phase_today.png, id=436, 1009.52156pt x 488.57532pt>
 File: phase_today.png Graphic file (type png)
  <use phase_today.png>
-Package pdftex.def Info: phase_today.png used on input line 542.
+Package pdftex.def Info: phase_today.png used on input line 539.
 (pdftex.def)             Requested size: 426.79134pt x 206.54959pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 542--543
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 539--540
  [][] 
  []
 
-<frequency_today.png, id=427, 1008.76875pt x 463.7325pt>
+<frequency_today.png, id=437, 1008.76875pt x 463.7325pt>
 File: frequency_today.png Graphic file (type png)
 
 <use frequency_today.png>
-Package pdftex.def Info: frequency_today.png used on input line 549.
+Package pdftex.def Info: frequency_today.png used on input line 546.
 (pdftex.def)             Requested size: 426.79134pt x 196.19566pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 549--550
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 546--547
  [][] 
  []
 
-<voltage_today.png, id=428, 1028.34187pt x 447.92343pt>
+<voltage_today.png, id=438, 1028.34187pt x 447.92343pt>
 File: voltage_today.png Graphic file (type png)
 
 <use voltage_today.png>
-Package pdftex.def Info: voltage_today.png used on input line 557.
+Package pdftex.def Info: voltage_today.png used on input line 554.
 (pdftex.def)             Requested size: 398.33858pt x 173.50702pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 557--558
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 554--555
  [][] 
  []
 
-<current_today.png, id=429, 1014.03844pt x 482.55281pt>
+<current_today.png, id=439, 1014.03844pt x 482.55281pt>
 File: current_today.png Graphic file (type png)
 
 <use current_today.png>
-Package pdftex.def Info: current_today.png used on input line 565.
+Package pdftex.def Info: current_today.png used on input line 562.
 (pdftex.def)             Requested size: 426.79134pt x 203.09785pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 565--566
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 562--563
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 569.
+Package pdftex.def Info: logo.png used on input line 566.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 569.
+Package pdftex.def Info: logo.png used on input line 566.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [31 <./freq_mov.png> <./voltage_today.png>]
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 569.
+Package pdftex.def Info: logo.png used on input line 566.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 569.
+Package pdftex.def Info: logo.png used on input line 566.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [32 <./phase_today.png> <./frequency_today.png>]
-<selection_buttons.png, id=448, 1028.34187pt x 219.82124pt>
+<selection_buttons.png, id=458, 1028.34187pt x 219.82124pt>
 File: selection_buttons.png Graphic file (type png)
 
 <use selection_buttons.png>
-Package pdftex.def Info: selection_buttons.png used on input line 576.
+Package pdftex.def Info: selection_buttons.png used on input line 573.
 (pdftex.def)             Requested size: 426.79134pt x 91.23416pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 576--577
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 573--574
  [][] 
  []
 
-<selectively_graph.png, id=449, 1005.00468pt x 444.15938pt>
+<selectively_graph.png, id=459, 1005.00468pt x 444.15938pt>
 File: selectively_graph.png Graphic file (type png)
 
 <use selectively_graph.png>
-Package pdftex.def Info: selectively_graph.png used on input line 588.
+Package pdftex.def Info: selectively_graph.png used on input line 585.
 (pdftex.def)             Requested size: 426.79134pt x 188.61952pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 588--590
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 585--587
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 592.
+Package pdftex.def Info: logo.png used on input line 589.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 592.
+Package pdftex.def Info: logo.png used on input line 589.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [33 <./current_today.png> <./selection_buttons.png>] <feedback.png, id=459, 94
+ [33 <./current_today.png> <./selection_buttons.png>] <feedback.png, id=469, 94
 4.7797pt x 167.12437pt>
 File: feedback.png Graphic file (type png)
  <use feedback.png>
-Package pdftex.def Info: feedback.png used on input line 604.
+Package pdftex.def Info: feedback.png used on input line 601.
 (pdftex.def)             Requested size: 426.79134pt x 75.49597pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 604--606
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 601--603
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 610.
+Package pdftex.def Info: logo.png used on input line 607.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 610.
+Package pdftex.def Info: logo.png used on input line 607.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [34 <./selectively_graph.png> <./feedback.png>]
-<scheduler.png, id=469, 1025.33063pt x 463.7325pt>
+<scheduler.png, id=479, 1025.33063pt x 463.7325pt>
 File: scheduler.png Graphic file (type png)
  <use scheduler.png>
-Package pdftex.def Info: scheduler.png used on input line 617.
+Package pdftex.def Info: scheduler.png used on input line 614.
 (pdftex.def)             Requested size: 426.79134pt x 193.02562pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 617--618
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 614--615
  [][] 
  []
 
-<scheduled.png, id=470, 567.62062pt x 222.07968pt>
+<scheduled.png, id=480, 567.62062pt x 222.07968pt>
 File: scheduled.png Graphic file (type png)
  <use scheduled.png>
-Package pdftex.def Info: scheduled.png used on input line 625.
+Package pdftex.def Info: scheduled.png used on input line 622.
 (pdftex.def)             Requested size: 426.79134pt x 166.98631pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 625--626
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 622--623
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 629.
+Package pdftex.def Info: logo.png used on input line 626.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 629.
+Package pdftex.def Info: logo.png used on input line 626.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [35 <./scheduler.png>]
-<scheduled_table.png, id=478, 1004.25188pt x 389.20406pt>
+<scheduled_table.png, id=488, 1004.25188pt x 389.20406pt>
 File: scheduled_table.png Graphic file (type png)
 
 <use scheduled_table.png>
-Package pdftex.def Info: scheduled_table.png used on input line 631.
+Package pdftex.def Info: scheduled_table.png used on input line 628.
 (pdftex.def)             Requested size: 426.79134pt x 165.40657pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 631--632
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 628--629
  [][] 
  []
 
 
-Overfull \hbox (12.57797pt too wide) in paragraph at lines 636--637
+Overfull \hbox (12.57797pt too wide) in paragraph at lines 633--634
 []\OT1/cmr/m/n/12 Initial sta-tus of $\OML/cmm/m/it/12 button[]change$ \OT1/cmr
 /m/n/12 is 0, with up-dated val-ues of $\OML/cmm/m/it/12 Switch[]on$
  []
 
-<power.png, id=479, 728.7225pt x 102.3825pt>
+<power.png, id=489, 728.7225pt x 102.3825pt>
 File: power.png Graphic file (type png)
  <use power.png>
-Package pdftex.def Info: power.png used on input line 644.
+Package pdftex.def Info: power.png used on input line 641.
 (pdftex.def)             Requested size: 369.88582pt x 51.96754pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 648.
+Package pdftex.def Info: logo.png used on input line 645.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 648.
+Package pdftex.def Info: logo.png used on input line 645.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [36 <./scheduled.png> <./scheduled_table.png>]
-Overfull \hbox (26.41115pt too wide) in paragraph at lines 649--650
+Overfull \hbox (26.41115pt too wide) in paragraph at lines 646--647
 []\OT1/cmr/m/n/12 The but-ton data is sub-mit-ted to $\OML/cmm/m/it/12 button[]
 status:php$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 button[]status\OT1/cmr/m/n/12 2\
 OML/cmm/m/it/12 :php$\OT1/cmr/m/n/12 ,
@@ -2148,392 +2021,465 @@ OML/cmm/m/it/12 :php$\OT1/cmr/m/n/12 ,
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 653.
+Package pdftex.def Info: logo.png used on input line 650.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 653.
+Package pdftex.def Info: logo.png used on input line 650.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [37 <./power.png>]
-<coolterm2.jpg, id=497, 530.73282pt x 330.48468pt>
+<coolterm2.jpg, id=507, 530.73282pt x 330.48468pt>
 File: coolterm2.jpg Graphic file (type jpg)
  <use coolterm2.jpg>
-Package pdftex.def Info: coolterm2.jpg used on input line 659.
+Package pdftex.def Info: coolterm2.jpg used on input line 656.
 (pdftex.def)             Requested size: 369.88582pt x 230.32913pt.
 
-<coolterm3.jpg, id=498, 523.9575pt x 346.29375pt>
+<coolterm3.jpg, id=508, 523.9575pt x 346.29375pt>
 File: coolterm3.jpg Graphic file (type jpg)
  <use coolterm3.jpg>
-Package pdftex.def Info: coolterm3.jpg used on input line 663.
+Package pdftex.def Info: coolterm3.jpg used on input line 660.
 (pdftex.def)             Requested size: 369.88582pt x 244.47pt.
 
-<coolterm4.jpg, id=499, 746.03719pt x 465.23813pt>
+<coolterm4.jpg, id=509, 746.03719pt x 465.23813pt>
 File: coolterm4.jpg Graphic file (type jpg)
  <use coolterm4.jpg>
-Package pdftex.def Info: coolterm4.jpg used on input line 668.
+Package pdftex.def Info: coolterm4.jpg used on input line 665.
 (pdftex.def)             Requested size: 369.88582pt x 230.66628pt.
 
-<coolterm5.jpg, id=500, 739.26187pt x 459.96844pt>
+<coolterm5.jpg, id=510, 739.26187pt x 459.96844pt>
 File: coolterm5.jpg Graphic file (type jpg)
  <use coolterm5.jpg>
-Package pdftex.def Info: coolterm5.jpg used on input line 673.
+Package pdftex.def Info: coolterm5.jpg used on input line 670.
 (pdftex.def)             Requested size: 369.88582pt x 230.14508pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 676.
+Package pdftex.def Info: logo.png used on input line 673.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 676.
+Package pdftex.def Info: logo.png used on input line 673.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [38 <./coolterm2.jpg> <./coolterm3.jpg>]
-<coolterm6.jpg, id=507, 750.55406pt x 455.45157pt>
+<coolterm6.jpg, id=517, 750.55406pt x 455.45157pt>
 File: coolterm6.jpg Graphic file (type jpg)
  <use coolterm6.jpg>
-Package pdftex.def Info: coolterm6.jpg used on input line 678.
+Package pdftex.def Info: coolterm6.jpg used on input line 675.
 (pdftex.def)             Requested size: 369.88582pt x 224.4589pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 683.
+Package pdftex.def Info: logo.png used on input line 680.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 683.
+Package pdftex.def Info: logo.png used on input line 680.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [39 <./coolterm4.jpg> <./coolterm5.jpg>]
-<homephp.png, id=515, 1028.34187pt x 554.07pt>
+<homephp.png, id=525, 1028.34187pt x 554.07pt>
 File: homephp.png Graphic file (type png)
  <use homephp.png>
-Package pdftex.def Info: homephp.png used on input line 688.
+Package pdftex.def Info: homephp.png used on input line 685.
 (pdftex.def)             Requested size: 426.79134pt x 229.96013pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 688--689
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 685--686
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 695.
+Package pdftex.def Info: logo.png used on input line 692.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 695.
+Package pdftex.def Info: logo.png used on input line 692.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [40 <./coolterm6.jpg> <./homephp.png>]
-<Live_data.png, id=525, 1371.1225pt x 2683.02374pt>
+<Live_data.png, id=535, 1371.1225pt x 2683.02374pt>
 File: Live_data.png Graphic file (type png)
  <use Live_data.png>
-Package pdftex.def Info: Live_data.png used on input line 701.
+Package pdftex.def Info: Live_data.png used on input line 698.
 (pdftex.def)             Requested size: 170.71652pt x 334.02614pt.
 
-<Live_data2.png, id=526, 1371.1225pt x 2683.02374pt>
+<Live_data2.png, id=536, 1371.1225pt x 2683.02374pt>
 File: Live_data2.png Graphic file (type png)
  <use Live_data2.png>
-Package pdftex.def Info: Live_data2.png used on input line 703.
+Package pdftex.def Info: Live_data2.png used on input line 700.
 (pdftex.def)             Requested size: 170.71652pt x 334.02614pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 712.
+Package pdftex.def Info: logo.png used on input line 709.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 712.
+Package pdftex.def Info: logo.png used on input line 709.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [41 <./Live_data.png> <./Live_data2.png>]
-<logging_page.png, id=539, 1028.34187pt x 565.36218pt>
+<logging_page.png, id=549, 1028.34187pt x 565.36218pt>
 File: logging_page.png Graphic file (type png)
  <use logging_page.png>
-Package pdftex.def Info: logging_page.png used on input line 715.
+Package pdftex.def Info: logging_page.png used on input line 712.
 (pdftex.def)             Requested size: 426.79134pt x 234.6468pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 715--716
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 712--713
  [][] 
  []
 
-<log.png, id=542, 728.7225pt x 461.47406pt>
+<log.png, id=552, 728.7225pt x 461.47406pt>
 File: log.png Graphic file (type png)
  <use log.png>
-Package pdftex.def Info: log.png used on input line 727.
+Package pdftex.def Info: log.png used on input line 724.
 (pdftex.def)             Requested size: 426.79134pt x 270.26753pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 727--728
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 724--725
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 732.
+Package pdftex.def Info: logo.png used on input line 729.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 732.
+Package pdftex.def Info: logo.png used on input line 729.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [42 <./logging_page.png>]
-<full.png, id=551, 726.46407pt x 466.74374pt>
+<full.png, id=561, 726.46407pt x 466.74374pt>
 File: full.png Graphic file (type png)
  <use full.png>
-Package pdftex.def Info: full.png used on input line 742.
+Package pdftex.def Info: full.png used on input line 739.
 (pdftex.def)             Requested size: 426.79134pt x 274.21555pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 742--743
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 739--740
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 747.
+Package pdftex.def Info: logo.png used on input line 744.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 747.
+Package pdftex.def Info: logo.png used on input line 744.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [43 <./log.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
 
  []
 
-<Scheduleonoff.png, id=560, 1371.1225pt x 738.76pt>
+<Scheduleonoff.png, id=570, 1371.1225pt x 738.76pt>
 File: Scheduleonoff.png Graphic file (type png)
  <use Scheduleonoff.png>
-Package pdftex.def Info: Scheduleonoff.png used on input line 753.
+Package pdftex.def Info: Scheduleonoff.png used on input line 750.
 (pdftex.def)             Requested size: 426.79134pt x 229.94885pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 753--754
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 750--751
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 757.
+Package pdftex.def Info: logo.png used on input line 754.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 757.
+Package pdftex.def Info: logo.png used on input line 754.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [44 <./full.png>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 765.
+Package pdftex.def Info: logo.png used on input line 762.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 765.
+Package pdftex.def Info: logo.png used on input line 762.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 [45 <./Scheduleonoff.png>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 776.
+Package pdftex.def Info: logo.png used on input line 773.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 776.
+Package pdftex.def Info: logo.png used on input line 773.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [46]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 799.
+Package pdftex.def Info: logo.png used on input line 796.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 799.
+Package pdftex.def Info: logo.png used on input line 796.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [47]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 801.
+Package pdftex.def Info: logo.png used on input line 798.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 801.
+Package pdftex.def Info: logo.png used on input line 798.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [48]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 812.
+Package pdftex.def Info: logo.png used on input line 809.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [49
 
 ]
-Chapter 2.
 File: logo.png Graphic file (type png)
+
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 817.
+Package pdftex.def Info: logo.png used on input line 809.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [50
+
+
+]
+Appendix A.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 815.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+ [51
 
 ]
 File: schematic.jpg Graphic file (type jpg)
  <use schematic.jpg>
-Package pdftex.def Info: schematic.jpg used on input line 820.
+Package pdftex.def Info: schematic.jpg used on input line 818.
 (pdftex.def)             Requested size: 381.42325pt x 381.43777pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 822.
+Package pdftex.def Info: logo.png used on input line 820.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 822.
+Package pdftex.def Info: logo.png used on input line 820.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [51]
-Underfull \hbox (badness 10000) in paragraph at lines 826--852
+ [52]
+<powerblock.jpg, id=639, 853.1875pt x 556.0775pt>
+File: powerblock.jpg Graphic file (type jpg)
+ <use powerblock.jpg>
+Package pdftex.def Info: powerblock.jpg used on input line 827.
+(pdftex.def)             Requested size: 381.43126pt x 381.42838pt.
+
+<hallblock.jpg, id=641, 869.2475pt x 550.055pt>
+File: hallblock.jpg Graphic file (type jpg)
+ <use hallblock.jpg>
+Package pdftex.def Info: hallblock.jpg used on input line 832.
+(pdftex.def)             Requested size: 381.43552pt x 381.43521pt.
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 834.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 834.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [53 <./powerblock.jpg>]
+<transblock.jpg, id=651, 1011.78pt x 611.28375pt>
+File: transblock.jpg Graphic file (type jpg)
+ <use transblock.jpg>
+Package pdftex.def Info: transblock.jpg used on input line 837.
+(pdftex.def)             Requested size: 381.42357pt x 381.42647pt.
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 839.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 839.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [54 <./hallblock.jpg>]
+<zcdblock.jpg, id=661, 1015.54407pt x 506.6428pt>
+File: zcdblock.jpg Graphic file (type jpg)
+ <use zcdblock.jpg>
+Package pdftex.def Info: zcdblock.jpg used on input line 843.
+(pdftex.def)             Requested size: 381.41693pt x 381.43456pt.
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 845.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 845.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [55 <./transblock.jpg>]
+<bufferblock.jpg, id=669, 1015.54407pt x 506.6428pt>
+File: bufferblock.jpg Graphic file (type jpg)
+ <use bufferblock.jpg>
+Package pdftex.def Info: bufferblock.jpg used on input line 848.
+(pdftex.def)             Requested size: 381.41693pt x 381.43456pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 854.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 854.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [56 <./zcdblock.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 855--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--852
+Underfull \hbox (badness 10000) in paragraph at lines 855--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--852
+Underfull \hbox (badness 10000) in paragraph at lines 855--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--852
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
+Underfull \hbox (badness 10000) in paragraph at lines 855--881
 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 855.
+Package pdftex.def Info: logo.png used on input line 881.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 855.
+Package pdftex.def Info: logo.png used on input line 881.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [52]
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+ [57 <./bufferblock.jpg>]
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 884.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 884.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [58]
+Underfull \hbox (badness 10000) in paragraph at lines 885--886
 
  []
 
-<diy1.png, id=630, 566.115pt x 551.05875pt>
+<diy1.png, id=688, 566.115pt x 551.05875pt>
 File: diy1.png Graphic file (type png)
  <use diy1.png>
-Package pdftex.def Info: diy1.png used on input line 858.
+Package pdftex.def Info: diy1.png used on input line 887.
 (pdftex.def)             Requested size: 301.1261pt x 293.12761pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
-
- []
-
-<diy2.jpg, id=631, 4882.24pt x 2746.26pt>
+<diy2.jpg, id=689, 4882.24pt x 2746.26pt>
 File: diy2.jpg Graphic file (type jpg)
  <use diy2.jpg>
-Package pdftex.def Info: diy2.jpg used on input line 863.
+Package pdftex.def Info: diy2.jpg used on input line 891.
 (pdftex.def)             Requested size: 301.1261pt x 169.37798pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 866.
+Package pdftex.def Info: logo.png used on input line 894.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 866.
+Package pdftex.def Info: logo.png used on input line 894.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [53 <./diy1.png> <./diy2.jpg>]
-<diy3.jpg, id=637, 2746.26pt x 4882.24pt>
+ [59 <./diy1.png> <./diy2.jpg>]
+<diy3.jpg, id=696, 2746.26pt x 4882.24pt>
 File: diy3.jpg Graphic file (type jpg)
  <use diy3.jpg>
-Package pdftex.def Info: diy3.jpg used on input line 867.
+Package pdftex.def Info: diy3.jpg used on input line 895.
 (pdftex.def)             Requested size: 200.75073pt x 356.84009pt.
 
-<diy4.jpg, id=638, 4882.24pt x 2746.26pt>
+<diy4.jpg, id=697, 4882.24pt x 2746.26pt>
 File: diy4.jpg Graphic file (type jpg)
  <use diy4.jpg>
-Package pdftex.def Info: diy4.jpg used on input line 870.
+Package pdftex.def Info: diy4.jpg used on input line 898.
 (pdftex.def)             Requested size: 351.31378pt x 197.57971pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 903.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
 
-<board.jpg, id=639, 4223.78pt x 3131.7pt>
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 903.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [60 <./diy3.jpg> <./diy4.jpg>]
+<board.jpg, id=705, 4223.78pt x 3131.7pt>
 File: board.jpg Graphic file (type jpg)
  <use board.jpg>
-Package pdftex.def Info: board.jpg used on input line 877.
+Package pdftex.def Info: board.jpg used on input line 906.
 (pdftex.def)             Requested size: 351.31482pt x 401.49657pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 878.
+Package pdftex.def Info: logo.png used on input line 914.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 878.
+Package pdftex.def Info: logo.png used on input line 914.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [54 <./diy3.jpg> <./diy4.jpg>]
+ [61 <./board.jpg>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 888.
+Package pdftex.def Info: logo.png used on input line 929.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 888.
+Package pdftex.def Info: logo.png used on input line 929.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-[55 <./board.jpg>]
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 900.
-(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 900.
-(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [56]
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+ [62]
+Underfull \hbox (badness 10000) in paragraph at lines 945--946
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
 
  []
 
 ! Double superscript.
 <argument> OUT = $5e^-^
                        (^t^/^\u ^)$
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> OUT = $5e^-^(^
                          t^/^\u ^)$
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> OUT = $5e^-^(^t^
                            /^\u ^)$
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> OUT = $5e^-^(^t^/^
                              \u ^)$
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2541,12 +2487,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \u invalid in math mode on input line 929.
+LaTeX Warning: Command \u invalid in math mode on input line 960.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2554,7 +2500,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing { inserted.
 <to be read again> 
                    \global 
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2564,7 +2510,7 @@ so that I will find a matching right brace soon.
 ! Improper \spacefactor.
 <recently read> \spacefactor 
                              
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 You can refer to \spacefactor only in horizontal mode;
 you can refer to \prevdepth only in vertical mode; and
@@ -2574,7 +2520,7 @@ I'm forgetting what you said and using zero instead.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2582,7 +2528,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2592,7 +2538,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    \egroup 
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2602,7 +2548,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2612,7 +2558,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.929 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+l.960 	\textbf{OUT = $5e^-^(^t^/^\u^)$}
                                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2627,7 +2573,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.930 \end{center}
+l.961 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2639,7 +2585,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.930 \end{center}
+l.961 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2651,7 +2597,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.930 \end{center}
+l.961 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2659,7 +2605,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.930 \end{center}
+l.961 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2670,7 +2616,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.930 \end{center}
+l.961 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2681,7 +2627,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.930 \end{center}
+l.961 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2692,7 +2638,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.930 \end{center}
+l.961 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2701,72 +2647,67 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
-
- []
-
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png used on input line 941.
-(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 941.
-(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [57]
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 944.
+Package pdftex.def Info: logo.png used on input line 972.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 944.
+Package pdftex.def Info: logo.png used on input line 972.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
- [58]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 944.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 944.
+ [63]
+Underfull \hbox (badness 10000) in paragraph at lines 973--975
+
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 975.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 975.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+ [64]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 975.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 975.
  (report_eYSIP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 944.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 944.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 975.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 975.
 Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
-(rerunfilecheck)             Checksum: 1EBC85F1A3F792B6175DCAE23810A111;952.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 944.
+(rerunfilecheck)             Checksum: 5BE7F4E10E531F4EE8A47453D09C434B;1107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 975.
  ) 
 Here is how much of TeX's memory you used:
- 31814 strings out of 493634
- 637569 string characters out of 3131157
- 711634 words of memory out of 3000000
- 34524 multiletter control sequences out of 15000+200000
- 10902 words of font info for 39 fonts, out of 3000000 for 9000
+ 31970 strings out of 493634
+ 629187 string characters out of 3143747
+ 713471 words of memory out of 3000000
+ 34653 multiletter control sequences out of 15000+200000
+ 11201 words of font info for 40 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  63i,16n,101p,10553b,910s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/AVILASH MOHANTY/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
-rs/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AVILASH MO
-HANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Users/AVILASH MOHANTY/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AVILASH MOHANTY/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/A
-VILASH MOHANTY/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on report_eYSIP.pdf (59 pages, 52942127 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report_eYSIP.pdf (65 pages, 53472093 bytes).
 PDF statistics:
- 744 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 809 PDF objects out of 1000 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
+ 648 words of extra memory for PDF output out of 10000 (max. 10000000)
 
