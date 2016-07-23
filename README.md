@@ -5,7 +5,7 @@ With this project we aim to make a "smart" device which is able to monitor elect
 
 Wi-Fi Enabled Device will be created using the Following Hardware and Software Tools.
 * **Microcontroller Board** CC3200 Wi-Fi Launchpad
-* **Software Used**  Code Composer Studio v6.1.3, Cool-term 
+* **Software Used**  Code Composer Studio v6.1.3,Energia, Cool-term 
 
 Website will be designed using the following Web development technologies:
 * **Front-end+Back-end:**  HTML,PHP,CSS, Javascript (including JQuery and AJAX)
