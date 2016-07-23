@@ -1,0 +1,59 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+	  /*$.getJSON('action_page.php', function(json) {
+	  alert(JSON.stringify(json));
+			//var dataTable = new google.visualization.DataTable(json);
+		});*/
+	  var dataTable=null;
+	  var chart=null;
+	  var options;
+	  var oldTime=null;
+      function drawChart() {
+	  
+	  $.getJSON('action_page.php', function(json) {
+	  //alert(JSON.stringify(json));
+		    dataTable = new google.visualization.DataTable();
+			dataTable.addColumn('datetime',   'Time');
+			 dataTable.addColumn('number', 'Current');
+			 oldTime=json[0].time;
+			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+		options = {
+          title: 'Sensor',
+          curveType: 'function',
+		  pointSize: 7,
+		  pointShape: 'circle',	
+          legend: { position: 'top' }
+        };
+
+        chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(dataTable, options);
+		});
+		var app=200;
+		setInterval(function(){
+			$.getJSON('action_page.php', function(json) {
+				if(!(oldTime===json[0].time))
+				dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+				
+			});
+			chart.draw(dataTable, options);
+			console.log(app); 
+			app=app+200;
+		},60)
+
+        
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+  </body>
+</html>
