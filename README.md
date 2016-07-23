@@ -28,7 +28,7 @@ Website will be designed using the following Web development technologies:
  + Voltage sensitivity of the device is 0.093V.
  + Current sensitivity of the device is 0.0055A.
  + Error in frequency measurement is 3%.
-* Number of ADC channel on the device restricts it to monitor only three connected electrical sockets but web based controlling feature can be extended to 20 more sockets.
+* Number of ADC channels on the device restricts it to monitor only three connected electrical sockets but web based controlling feature can be extended to 20 more sockets.
 * The web GUI allows user to monitor live data with real-time updating graphs, which can plot electrical parameters of 3 devices simultaneously.
 * The data uploaded by the Wi-Fi enabled device is continuously logged in database and can be viewed as static graphs with options to choose the intervals.
 * The GUI can also generate log in .csv file format for both selected interval and complete log.
