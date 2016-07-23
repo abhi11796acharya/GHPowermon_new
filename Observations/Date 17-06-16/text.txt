@@ -1,0 +1,4 @@
+1. vcc of whole system is exactly 3.5v
+2. no input out of current sensor is 1.8v.
+3. if vref of ADC of CC3200 is 1.46v than max output voltage of current sensor must be 1.46v. 
+that's why through voltage divider output voltage has been bounded within 1.46v range. 
