@@ -3,10 +3,10 @@
 <head>
 
 <script type="text/javascript" src="JS/loader.js"></script>
-<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="JS/jquery.min.js"></script>
 <script type="text/javascript" src="JS/jquery-ui.min.js"></script>
 <script type="text/javascript" src="JS/jquery-ui.js"></script>
-<script type="text/javascript" src="Stable_chart_loop.js"></script>
+<script type="text/javascript" src="JS/Charts/Stable_chart_loop.js"></script>
 
 
 <style>

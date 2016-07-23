@@ -3,7 +3,7 @@
   <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <script type="text/javascript" src="JS/jquery.js"></script>
-  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="JS/jquery.min.js"></script>
   <script type="text/javascript" src="JS/jquery.ui.js"></script>
   <script type="text/javascript" src="JS/jquery.editinplace.js"></script>
   <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">

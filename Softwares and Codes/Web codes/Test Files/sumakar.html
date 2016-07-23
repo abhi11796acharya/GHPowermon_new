@@ -1,7 +1,9 @@
+
 <html>
   <head>
-    <script type="text/javascript" src="JS/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="jquery.min.js"></script>
+
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -18,16 +20,15 @@
 	  $.getJSON('action_page.php', function(json) {
 	  //alert(JSON.stringify(json));
 		    dataTable = new google.visualization.DataTable();
-			dataTable.addColumn('datetime',   'time');
-			 dataTable.addColumn('number', 'value');
+			dataTable.addColumn('datetime',   'Time');
+			 dataTable.addColumn('number', 'Current');
 			 oldTime=json[0].time;
-			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].value)]);
+			 dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
 			 //dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
 		options = {
           title: 'Sensor',
           curveType: 'function',
 		  pointSize: 7,
-		   vAxis: {minValue:0, maxValue:100},
 		  pointShape: 'circle',	
           legend: { position: 'top' }
         };
@@ -39,18 +40,16 @@
 		var app=200;
 		setInterval(function(){
 			$.getJSON('action_page.php', function(json) {
-			if(!(oldTime===json[0].time))
-				dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);	
-			console.log(dataTable.getNumberOfRows());
-		if (dataTable.getNumberOfRows()>100)
-				{
-					dataTable.removeRow(0);		
-				}
+				if(!(oldTime===json[0].time))
+				dataTable.addRow([new Date(json[0].time), parseInt(json[0].current)]);
+				
 			});
 			chart.draw(dataTable, options);
 			console.log(app); 
 			app=app+200;
-		},1000)
+		},60)
+
+        
       }
     </script>
   </head>
