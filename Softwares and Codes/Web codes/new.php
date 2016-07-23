@@ -1,0 +1,1 @@
+$(".name").editInPlace({ url: "http://com.examplesite.www/users", params: "name=david" });
