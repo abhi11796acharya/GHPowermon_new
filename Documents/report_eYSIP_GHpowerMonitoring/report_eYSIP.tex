@@ -68,7 +68,7 @@ contents={\includegraphics{logo}}
 
 %new command for table
 \newcommand{\head}[1]{\textnormal{\textbf{#1}}}
-
+\graphicspath{ {images/} } 
 
 %----------------------End of the Preamble---------------------------------------
 
@@ -132,7 +132,7 @@ contents={\includegraphics{logo}}
 \chapter[Greenhouse Power Monitoring and Appliance Control]{Greenhouse Power Monitoring and Appliance Control }
 \section{Abstract}
 \hspace{7mm}This project aims at developing a monitoring system which will consist of a Wi-Fi enabled device which can measure the basic electrical paramenters of greenhouse's electrical appliances. This system will have Web based GUI through which user can monitor real-time graphically visualised data. 
-The monitored parameters will be logged in a database for future reference and  plotted on the web GUI logging page. This Web GUI also enables the user to switch and schedule ON/OFF as per requirement.
+The monitored parameters will be logged in a database for future reference and  plotted on the web GUI logging page. This Web GUI also enables the user to switch and schedule ON/OFF time of the device as per requirement.
 \\
 
 \newpage
@@ -143,17 +143,17 @@ The monitored parameters will be logged in a database for future reference and  
 	\setlength\itemsep{0.2cm}
 	\begin{enumerate}
 		\item{Literature survey of existing Real time Web Monitoring sites. }    
-		\item{Developed a Circuit to measure Current,Voltage,Phase,Frequency.}
+		\item{Developed a Circuit to measure Current,Voltage,Phase and Frequency.}
 		\item{Research and finalisation on Micro-controller board and Softwares to be used.}
-		\item{Measurement of Current,Phase,Frequency,Voltage.}
+		\item{Measurement of Current,Voltage,Phase and Frequency.}
 		\item{Established a connection between server and micro-controller.}
 		\item{Logged Real time data in database.}
 		\item{Created Real Time updating Charts.}
 		\item{Graphical Visualisation of logged data.}
 		\item{Interfaced relay with the micro-controller.}
 		\item{Created a Webpage to control the connected devices.}
-		\item{Scheduling feature. }
-		\item{3 device Support for monitoring and controlling.}
+		\item{Scheduling on/off time of devices.}
+		\item{3 device support for monitoring and controlling.}
 		\item{Feedback system to compare real-device status and system's  data.}
 		\item{Terminal based GUI to configure the 'Smart Switchboard/Plug'.}
 		\item{Code Documentation and Project Report.}
@@ -188,14 +188,14 @@ The monitored parameters will be logged in a database for future reference and  
 		 	4-Channel Relay Board& 230V AC (10Amp)& 1\\ \hline
 		 	Measurement Board& & \\ 
 		 	\textit{(Designed \& Developed } & MBV1.1 & 1 \\
-		 	\textit{ \hspace{1cm}By Eyantra during eYSIP-16) } & & \\ \hline
+		 	\textit{ \hspace{1cm} during eYSIP-16) } & & \\ \hline
 		 \end{tabular}
 		 \vspace{1cm}
 	\item \textbf{Details of hardware used:-}
 	\begin{itemize}
 		  \item Electrical Switch Board (Purchased from local market) 
-		  \item Potential Transformer \href{http://www.amazon.in/Input-Output-EI-41x20-5-Power-Transformer/dp/B01I1ZMGKW/ref=sr_1_5?ie=UTF8&qid=1469263889&sr=8-5&keywords=9v+transformer}{Vendor link}
-		  \item Hall Effect Sensor Module \href{./datasheet/ACS712-Datasheet.pdf}{Datasheet}, \href{http://www.amazon.in/Current-Sensor-Module-ACS712-model/dp/B00NU8XD80?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=8a34ff38-5122-429d-8260-7633d5ca1fcf}{Vendor link},
+		  \item Potential Transformer 
+		  \item Hall Effect Sensor Module \href{https://github.com/eYSIP-2016/eYSIP2016-GHPowerMonitoring/blob/master/Documents/report_eYSIP_GHpowerMonitoring/datasheet/ACS712-Datasheet.pdf}{Datasheet}, \href{http://www.amazon.in/Current-Sensor-Module-ACS712-model/dp/B00NU8XD80?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=8a34ff38-5122-429d-8260-7633d5ca1fcf}{Vendor link},
 		  \item Bulb   (Purchased from local market) 
 		  \item CC3200 LAUNCHPAD \href{./datasheet/cc3200 complete datasheet.pdf}{Datasheet}, 		\href{https://www.fabtolab.com/boards/TI}{Vendor link}
 		  \item Jumper Wires  \href{https://www.fabtolab.com}{Vendor link}
@@ -246,7 +246,7 @@ The monitored parameters will be logged in a database for future reference and  
   	 		\hspace{2cm}
   	  	\includegraphics[width=300px]{inst3}
   	 \end{figure}
-  	 \item now continue to click on next till complete installation of Code Composer studio
+  	 \item Accept License agreement and click on next to complete the installation of Code Composer Studio.
   	 \begin{figure}[h]
   	 		\hspace{2cm}
   	 	\includegraphics[width=250px]{inst4}
@@ -339,59 +339,60 @@ The monitored parameters will be logged in a database for future reference and  
 	\end{figure}
 \end{itemize}
 \newpage
-\item\textbf{ Terminal softwares: Coolterm \& Teraterm} \\
--- Detail of software: version 1.4.6, \href{http://www.coolterm.com}{Coolterm}\\
--- Detail of software: version 1.4.6, \href{http://www.coolterm.com}{Teraterm}\\
+\item\textbf{Setting up Serial Terminal software} \\
+Serial terminal is used for code debugging and configuring wifi of smart switch board. We have used Coolterm, however any other serial terminal software can be used.  \\
+-- Detail of software: version 1.4.6, \href{http://www.coolterm.com}{Coolterm Download Link}\\
 	\begin{figure}[h]
 		\hspace{2cm}
 		\includegraphics[width=270px]{inst16}
 	\end{figure}
-	\begin{figure}[h]
-		\hspace{2cm}
-		\includegraphics[width=270px]{inst17}
-	\end{figure}
-	\newpage
-					\item Setting up the environment
+%	\begin{figure}[h]
+%		\hspace{2cm}
+%		\includegraphics[width=270px]{inst17}
+%	\end{figure}
+%	\newpage
+					\item System Specification
 					\begin{enumerate}
-						\item Software used:Windows OS
-						\item Version:Windows 10
+						\item Operating System: Windows 10 OS
 					\end{enumerate}
-					\item Setting up the Server \& Database
+					\item Setting up the local Server \& Database
 					\begin{enumerate}
-						\item Software used:XAMPP
-						\item Version:XAMPP version 3.2.2
+						\item Software used: XAMPP
+						\item Version: XAMPP version 3.2.2
 						\item \href{https://www.apachefriends.org/download.html}{XAMPP Download Link}
-						\item \href{http://www.wikihow.com/Install-XAMPP-for-Windows}{XAMPP Installation steps.}
+						\item \href{http://www.wikihow.com/Install-XAMPP-for-Windows}{XAMPP Installation steps}
 						\hspace{20px}
 						
-						\begin{figure}[H]  \centering
-							\includegraphics[width=13cm]{xampp1.png}
-							\caption{Component Selection}
-						\end{figure}
-						\begin{figure}[H]  \centering
-							\includegraphics[width=13cm]{xampp12.png}
-							\caption{Finish Installation}
-						\end{figure}
+%						\begin{figure}[H]  \centering
+%							\includegraphics[width=13cm]{xampp1.png}
+%							\caption{Component Selection}
+%						\end{figure}
+%						\begin{figure}[H]  \centering
+%							\includegraphics[width=13cm]{xampp12.png}
+%							\caption{Finish Installation}
+%						\end{figure}
 						\begin{figure}[H]  \centering
 							\includegraphics[width=13cm]{xampp3.png}
 							\caption{Open XAMPP Control Panel}
 						\end{figure}
-						\hspace{10px}
+						%\hspace{10px}
 						
 						\textbf{NOTE: If Server rejects connection requests by microcontroller, follow these steps.}
 						
 						\begin{figure}[H]  \centering
 							\includegraphics[width=13cm]{httpconf2.png}
 							\caption{Open httpd.conf}
+							\label{fig:1_Open httpd.conf}
 						\end{figure}
 						
-						\item{Open httpd.conf file in configuration setting for Apache Server in XAMPP.}
+						\item{Open httpd.conf file in configuration setting for Apache Server in XAMPP, as shown in \ref{fig:1_Open httpd.conf}}
 						\begin{figure}[H]  \centering
 							\includegraphics[width=13cm]{override.png}
 							\caption{Change httpd.conf}
+							\label{fig-2_change httpd.conf}
 						\end{figure}
 						
-						\item{Set\\ $AllowOverride  All$\\
+						\item{Refer figure \ref{fig-2_change httpd.conf}Set \\ $AllowOverride  All$\\
 							$Options All$ \\
 							$Order allow,deny$\\
 							$Allow from All$ }
@@ -469,14 +470,14 @@ Now connect some more accessories to improve mechanical design and your \textbf{
 \newpage
 
 \section{Software and Code}
-\hspace{7mm}\href{https://github.com/eYSIP-2016/eYSIP2016-GHPowerMonitoring}{Github link} for the repository of code.\\
+\hspace{7mm} Code for web page is uploaded on github repo \href{https://github.com/eYSIP-2016/eYSIP2016-GHPowerMonitoring/tree/master/Softwares\%20and\%20Codes/Web\%20codes}{[Github link for Web page]}.\\
 
-The wifi enabled device is designed in such a way, that it will POST a particular string in every 4 secs and reads the response from the server as shown in the figure below. 
+The wifi enabled device is designed in such a way, that it will POST a particular string in every 4 secs and reads the response from the server as shown in the figure \ref{29}. Note that exsisting system measures current and phase for 3 devices. Measurement for single phase supply voltage and frequency are shown as single reading.   
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{coolterm1.jpg}
-	\caption{Sending Request after successfull connection.}
+	\caption{Sending Request after successful connection.}
 	\label{29}
 \end{figure}
 
@@ -523,7 +524,7 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 		\caption{Real Time Frequency plot 1 }
 		\label{3}	
 	\end{figure}
-	
+	Frequency is measured to be nearly 50Hz as shown in Figure \ref{3} and \ref{4} 
 	\begin{figure}
 		\centering
 		\includegraphics[width=15cm]{freq_mov.png}
@@ -533,14 +534,15 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 	\newpage
 	\item{Plotting the logged data }
 	\begin{itemize}	
-		\item{The logged data is gathered and and converted into JSON by $action\_graph\_week.php$}
+		\item{The logged data is gathered and converted into JSON by $action\_graph\_week.php$. \\ 
+		Note that dip in voltage and frequency plot is due to action of switching on/off the device for testing purpose. Also the graph shows plot for 1 hour device operation.}
 		\begin{figure}
 			\centering
 			\includegraphics[width=15cm]{phase_today.png}
 			\caption{Logged Phase data}
 			\label{5}
 		\end{figure}
-		
+		\item Oscillation in phase is due to reason that phase difference for resistive load is zero and on circular plot 0 and 360 are overlapping but on linear scale plot it appears to oscillate.
 		\begin{figure}
 			\centering
 			\includegraphics[width=15cm]{frequency_today.png}
@@ -590,20 +592,20 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 		\hspace{10px}
 		
 	\end{itemize}
-	\item{Feedback System. }
+	\item{Feedback System}
 	\begin{itemize}	
-		\item{In request cc3200 also provides feedback using $ds1,ds2,ds3$ }
+		\item{In request url cc3200 also provides feedback using $ds1,ds2,ds3$. Figure \ref{29} shows the request url.}
 		\item{In response server will update it with a boolean sequence for eg.$100,110,000...$ indicating switch status for each one of the 3 devices  } 
 		\item{Then the server waits for feedback in next request, which are provided by cc3200 in variables $ds1,ds2,ds3$}
 		
 		
 		\begin{figure}[H]  \centering
 			\includegraphics[width=15cm]{feedback.png}
-			\label{11}
 			\caption{Feedback system}
+			\label{fig: figure_feedback}
 		\end{figure}
 		\hspace{10px}
-		\item{The above image shows circular blocks which shows current device status according to the board, obtained in request.\\ If  a device is showing OFF when it should be ON or showing ON when it should be off, then fallacy can be detected.It indicates that maybe there is no device or it is not functioning properly }
+		\item{Figure \ref{fig: figure_feedback} shows circular blocks which shows current device status obtained in request.\\ If  a device is showing OFF when it should be ON or showing ON when it should be OFF, then system fault can be detected. It indicates that maybe there is no device or it is not functioning properly. }
 	\end{itemize}
 	\item{Scheduling and Control}
 	\begin{itemize}	
@@ -616,17 +618,17 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 			\label{17}
 		\end{figure}
 		
-		\item{The Scheduling datetime is submitted to $selection.php$ which update values in database, which are then further compared with every timestamp and a boolean string response for conneced devices}
+		\item{The Scheduling datetime is submitted to $selection.php$ which update values in database, which are then further compared with every timestamp and a boolean string response for connected devices.}
 		
 		\begin{figure}[H]  \centering
 			\includegraphics[width=15cm]{scheduled.png}
-			\caption{ Database Table $scheduled$ }
+			\caption{ Database Table $scheduled$ - if not scheduled }
 			\label{18}
 		\end{figure}
-		\item{Initial status of $button\_change$ is 1, which means scheduling is inactive.}
+		\item{As shown in Figure \ref{18} If initial status of $button\_change$ is 1, it means scheduling is inactive.}
 		\begin{figure}[H]  \centering
 			\includegraphics[width=15cm]{scheduled_table.png}
-			\caption{ Database Table updated values in table }
+			\caption{ Database Table $scheduled$ - if scheduled }
 			\label{19}
 		\end{figure}
 		
@@ -643,14 +645,14 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 			\label{20}
 		\end{figure}
 		
-		\item{The button data is submitted to $button\_status.php$, $button\_status2.php$, $button\_status.php3$ with a value for variable $q$. which upadates the above shown table.}
+		\item{Figure \ref{20} shows that First button's data is submitted to $button\_status.php$, Similarly for second button's data is submitted to $button\_status2.php$,and same goes for third button $button\_status3.php$.\\The $ Choice $ column stores the last selected choice in log selection buttons. }
 		
 	\end{itemize}
 \end{itemize}	
 \newpage
 \section{Use and Demo}
 \begin{itemize}
-	\item{Configure the Smart Switch-board using terminal based GUI }
+	\item{Configure the Smart Switch-board using Serial Terminal software}
 	
 	\begin{figure}[H]  \centering
 		\includegraphics[width=13cm]{coolterm2.jpg}
@@ -678,7 +680,7 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 		
 	\end{figure}
 	
-	\item{Open the webpage. (NOTE: The Web Site was developed on a localhost)}
+	\item{Open the webpage. (NOTE: The Web Site was developed and tested on a localhost)}
 	
 	
 	\begin{figure}[H]  \centering
@@ -688,12 +690,12 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 	\end{figure}
 	
 	
-	\item{This is the home page of the web based GUI, with 3 buttons redirecting buttons.}
-	\item{ Under the title of page, a navigation bar is present.}
+	\item{Figure \ref{21} shows the home page of the web based GUI, with 3 buttons viz. \textit{Start Monitoring, Get Log Data and Schedule Event}.}
+	\item{ Under the title of page, a navigation bar is present. Navigation bar will help user navigate between pages.}
 	
 	\item{Next is the current status page.See \autoref{27}.\\ The first Division shows the current(in A) flowing in the 3 devices. \\BLUE for Device 1\\RED for device 2\\YELLOW for device 3 }
 	
-	\begin{figure}%
+	\begin{figure}[!h]%
 		\centering
 		\subfloat[]{{\includegraphics[width=6cm]{Live_data} }}%
 		\qquad
@@ -716,9 +718,9 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 	
 	
 	\item{\autoref{24} shows the logging page.}
-	\item{As shown in the \autoref{9} the first four buttons provided are for period selection, and the last two are download links for .csv format for graph data and complete log data respectively.   }
+	\item{As shown in the \autoref{24} the first four buttons provided are for period selection, and the last two are download links for .csv format for graph data and complete log data respectively.   }
 	
-	\item{By clicking any of the four buttons, graph will be plotted for the given period, and $Graph\ Data$ download link will generate a log for that specific period in .csv format.}
+	\item{By clicking any of the four buttons, graph will be plotted for the given period, and $Graph\ Data$ download link will generate a log for that specific period in .csv format as shown in \autoref{22}.}
 	
 	\begin{figure}[H]  \centering
 		\includegraphics[width=15cm]{log.png}
@@ -741,19 +743,26 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 		\label{26}
 	\end{figure}
 	%***********************************************************************
-	\item{ The last page is $Schedule\ ON/OFF$.See \autoref{17} .This is the controlling page with features like scheduling and switching ON/OFF.\\ The button highlighted in the image is the switch.\\It can be noted that the text on it changes according to current button status.\\
-		Above switch, there is a circular block which indicates the actual device status.\\
-		GREEN represents ON status.\\RED represents OFF status. As depicted in figure 1.17.}	
-	\item{Just below every switch button there is a scheduler which can schedule ON/OFF.\\
+	\item{ The last page is $Schedule\ ON/OFF$ page. This is the controlling page with features like scheduling and switching ON/OFF.\\ 
+	The button highlighted in \autoref{fig: button} is the switch.\\It can be noted that the text on it changes according to current button status and circular block which indicates the actual device status.\\
+	GREEN represents ON status.\\RED represents OFF status.
+	
+	\item{Just below every switch button there is a scheduler which can schedule ON/OFF. Scheduler is shown in \autoref{35}}\\
 			
 			\begin{figure}[H]  \centering
-				\includegraphics[width=15cm]{Scheduleonoff.png}
+				\includegraphics[width=15cm]{feedback.png}				\caption{Button}
+				\label{fig: button}
+			\end{figure}
+
+			\begin{figure}[H]  \centering
+				\includegraphics[width=15cm]{scheduler.png}
 				\caption{Control page}
 				\label{35}
-			\end{figure}
+			\end{figure}					
+
 		The user first have to make a choice between ON/OFF radio buttons.If no selection is made it will be automatically counted as OFF . }
-	\item{ Then the user have to fill the two input fields namely $FROM$ and $TO$ as per requirement.See \autoref{17}}
-	\item{Scheduled Time-interval and Type will be notified as text.See \autoref{18}}
+	\item{ Then the user have to fill the two input fields namely $FROM$ and $TO$ as per requirement.See \autoref{35}}
+	\item{Scheduled Time-interval and Type will be notified as text.See \autoref{35}}
 	
 	%-------------------------------------------------------------------------
 	
@@ -762,11 +771,11 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 \newpage
 \section{Future Work}
 \begin{itemize}
-	\item{Current Web GUI is not responsive and will not work properly on mobile phones. Using Bootstrap (HTML,CSS framework) it can be done.}
+	\item{Current Web GUI is not responsive and will not work properly on mobile phones. Using Bootstrap (HTML,CSS framework) site can be made responsive.}
 	\item{Zoom Function can be added in charts for better user experience.}
 	\item{Features to control frequent or repeated Scheduling can be added.}
-	\item {Support for more devices can be added even when monitoring is available for few devices due to limited ADCs. }
-	\item{Circuit can be miniaturized by using Redbear Wifi-mini or cc3200 micro, which can increase portability}
+	\item {Support for more devices can be added even when monitoring is available for few devices due to limited ADCs.}
+	\item{Circuit can be miniaturized by designing measurement board on PCB and using Redbear Wifi-mini or cc3200 micro, which can increase portability}
 	\item{Phase measurement accuracy can be improved.}
 	
 \end{itemize}
@@ -776,9 +785,9 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 \begin{itemize}
 	\item For accurate measurement of phase please calculate the phase difference created by coupling capacitor applied to current wave for removing offset voltage.
 	\item Use \textbf{TI-RTOS} \& \textbf{Free-RTOS} for fast processing and transient analysis of the electrical parameters.
-	\item{SQL Injection - A code injection technique, used to attack data-driven applications, in which nefarious SQL statements are inserted into am entry field for execution.Blacklisting some characters can prevent attacks.For more details \href{www.w3schools.com/sql/sql_injection.asp}{W3schools SQL injection} }
+	\item{SQL Injection - A code injection technique, used to attack data-driven applications, in which nefarious SQL statements are inserted into an entry field for execution. Blacklisting some characters can prevent attacks.For more details refer \href{www.w3schools.com/sql/sql_injection.asp}{W3schools SQL injection} }
 	\item{Lightweight protocols Like MQTT can be used for better performance.}
-	\item{Security can be improved by adding Cryptography techniques like AES techniques.}
+	\item{Security can be improved by adding Cryptography techniques like AES.}
 \end{itemize}
 \subsection*{Challenges}
 \begin{itemize}
@@ -791,7 +800,7 @@ The wifi enabled device is designed in such a way, that it will POST a particula
 		\item Now load the .bin file of project. 
 	\end{itemize} 
 	\item For loading program into ROM select \textbf{mcu.bin} tab in Uniflash and than add the .bin file of the project.After adding the .bin file program MCU using program tab.
-	\item To write program for CC3200-launchpad please take help from \textbf{Driverlib API's},\textbf{Simplelink API's} and all the API module files present inside CC3200sdk folder.For more details \autopageref{50}
+	\item To write program for CC3200-launchpad please take help from \textbf{Driverlib API's},\textbf{Simplelink API's} and all the API module files present inside CC3200sdk folder.For more details \href{https://github.com/eYSIP-2016/eYSIP2016-GHPowerMonitoring/tree/master/Documents/CC3200\%20doc}{Documents inside Github repo }
 	   
 \end{itemize}
 
@@ -957,7 +966,8 @@ At these pins current wave without offset will appear.\\
 At these pins output of zero crossing circuit will appear.\\
 \begin{center}
 	\label{96}
-	\textbf{OUT = $5e^-^(^t^/^\u^)$}
+	%\textbf{OUT = $5e^-^(^t^/^\u^)$}
+	\textbf{$OUT = 5e^{-t/\tau}$}
 \end{center}
 \begin{flushleft}
 	\textbf{Where:}\\

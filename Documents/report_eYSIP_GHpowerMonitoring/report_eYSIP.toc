@@ -4,15 +4,15 @@
 \contentsline {section}{\numberline {1.2}Completion status}{3}{section.1.2}
 \contentsline {section}{\numberline {1.3}Hardware parts}{4}{section.1.3}
 \contentsline {section}{\numberline {1.4}Software used}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Assembly of hardware}{21}{section.1.5}
-\contentsline {section}{\numberline {1.6}Software and Code}{27}{section.1.6}
-\contentsline {section}{\numberline {1.7}Use and Demo}{38}{section.1.7}
-\contentsline {section}{\numberline {1.8}Future Work}{46}{section.1.8}
-\contentsline {section}{\numberline {1.9}Bug report and Challenges}{47}{section.1.9}
-\contentsline {chapter}{Appendices}{50}{section*.60}
-\contentsline {chapter}{\numberline {A}Measurement board manual}{51}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Abstract}{51}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Circuit diagram}{52}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Description of circuit diagram}{53}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}DIY}{57}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}Circuit output the each pin}{63}{section.1.A.5}
+\contentsline {section}{\numberline {1.5}Assembly of hardware}{18}{section.1.5}
+\contentsline {section}{\numberline {1.6}Software and Code}{24}{section.1.6}
+\contentsline {section}{\numberline {1.7}Use and Demo}{35}{section.1.7}
+\contentsline {section}{\numberline {1.8}Future Work}{43}{section.1.8}
+\contentsline {section}{\numberline {1.9}Bug report and Challenges}{44}{section.1.9}
+\contentsline {chapter}{Appendices}{47}{section*.58}
+\contentsline {chapter}{\numberline {A}Measurement board manual}{48}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Abstract}{48}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Circuit diagram}{49}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Description of circuit diagram}{50}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}DIY}{54}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Circuit output the each pin}{60}{section.1.A.5}
