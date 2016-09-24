@@ -1,6 +1,6 @@
 
 ![e-Yantra Summer Internship](http://www.e-yantra.org/img/EyantraLogoLarge.png)
-![logo](https://github.com/eYSIP-2016/Autonomous-Drone/blob/master/datasheets/ReadMe_images/iitbblack.jpg)
+![logo](http://www.bio.iitb.ac.in/~dpaul/images/IITB.jpg)
 
 ***
 # eYSIP-2016-Greenhouse Power Monitoring and Appliance Control
@@ -57,6 +57,9 @@ Website will be designed using the following Web development technologies:
 ## Mentors
 ***
   * [Saurav Shandilya](https://github.com/sauravshandilya)
+  * [Vishwanathan Iyer](https://github.com/vishwanathan-iyer)
+
+
 
 ##License
 ***
