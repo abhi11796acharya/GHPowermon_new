@@ -1,6 +1,6 @@
 
 ![e-Yantra Summer Internship](http://www.e-yantra.org/img/EyantraLogoLarge.png)
-![logo](http://www.bio.iitb.ac.in/~dpaul/images/IITB.jpg)
+![logo](https://www.civil.iitb.ac.in/~eldho/user/image/iitlogo-small.png)
 
 ***
 # eYSIP-2016-Greenhouse Power Monitoring and Appliance Control
